@@ -1,0 +1,128 @@
+{
+  "paper": "A01",
+  "source_tree": "C:\\Users\\23297\\Downloads\\FDUROP\\归档\\数据集\\数据清洗后论文\\A01\\03_实验输出\\Q_A_实验\\A_human_自然段基线\\run_论证树.json",
+  "source_sha256": "c693ccd517b361a5825e6fd4d7c72170e74e7a246f7ea20f2226195d16fa4ba0",
+  "original_C": 49,
+  "reviewed_C": 44,
+  "quote_paragraphs": 0,
+  "table_residue": 3,
+  "broken_sentence_fragments": 2,
+  "actions": [
+    {
+      "action": "exclude_table_residue",
+      "paragraph": "P7",
+      "removed_C": "C1.1.3",
+      "transferred_M": []
+    },
+    {
+      "action": "exclude_table_residue",
+      "paragraph": "P10",
+      "removed_C": "C1.1.6",
+      "transferred_M": []
+    },
+    {
+      "action": "exclude_table_residue",
+      "paragraph": "P27",
+      "removed_C": "C1.3.2",
+      "transferred_M": []
+    },
+    {
+      "action": "join_broken_sentence",
+      "paragraph": "P57",
+      "removed_C": "C3.3.2",
+      "target_paragraph": "P56",
+      "target_C": "C3.3.1",
+      "transferred_M": []
+    },
+    {
+      "action": "join_broken_sentence",
+      "paragraph": "P48",
+      "removed_C": "C3.1.5",
+      "target_paragraph": "P47",
+      "target_C": "C3.1.4",
+      "transferred_M": []
+    },
+    {
+      "action": "revise_surviving_claim",
+      "paragraph": "P47",
+      "C": "C3.1.4",
+      "before": "部分城市虽未列为官方榷货务节点，但凭借高产、优质和便利水路，在茶叶经济中地位重要。",
+      "after": "鄂州与汉阳军凭借茶叶高产、品质和水路区位，共同构成湖北沿江茶叶经济带的核心之一。"
+    },
+    {
+      "action": "revise_surviving_claim",
+      "paragraph": "P56",
+      "C": "C3.3.1",
+      "before": "此段引出茶叶经济繁盛对经济文化与民生社会影响的下文。",
+      "after": "茶叶经济繁盛既促进经济与文化发展，也对地方民生和社会稳定产生深远而复杂的影响。"
+    },
+    {
+      "action": "retain_C_correct_flag",
+      "paragraph": "P30",
+      "C": "C2.1"
+    },
+    {
+      "action": "retain_C_correct_flag",
+      "paragraph": "P42",
+      "C": "C3.1"
+    },
+    {
+      "action": "retain_C_correct_flag",
+      "paragraph": "P56",
+      "C": "C3.3.1"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P5",
+      "excluded_M": [
+        "M11",
+        "M12",
+        "M13",
+        "M16",
+        "M17"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P6",
+      "excluded_M": [
+        "M19a",
+        "M19b"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P13",
+      "excluded_M": [
+        "M27"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P15",
+      "excluded_M": [
+        "M30"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P39",
+      "excluded_M": [
+        "M74"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P45",
+      "excluded_M": [
+        "M76"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    }
+  ]
+}

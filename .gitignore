@@ -1,0 +1,10 @@
+API.txt
+*.env
+.env*
+*env.sh
+*.pyc
+__pycache__/
+*.pdf
+*.zip
+.DS_Store
+Thumbs.db

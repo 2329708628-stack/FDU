@@ -1,0 +1,10 @@
+{
+  "version": "combined-direct-edges-v1",
+  "rounds": 10,
+  "main_k": 6,
+  "robust_k": 4,
+  "cross_level": true,
+  "sci_mode": "combined",
+  "exclude_A": true,
+  "source_id_policy": "exact_shared_roster"
+}

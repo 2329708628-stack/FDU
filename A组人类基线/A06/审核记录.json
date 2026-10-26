@@ -1,0 +1,41 @@
+{
+  "paper": "A06",
+  "source_tree": "C:\\Users\\23297\\Downloads\\FDUROP\\归档\\数据集\\数据清洗后论文\\A06\\03_实验输出\\Q_A_实验\\A_human_自然段基线\\run_论证树.json",
+  "source_sha256": "eec10ad8e36b30386655fea6a5cbbefb986a905dc1806ff7e98f678601aede27",
+  "original_C": 26,
+  "reviewed_C": 26,
+  "quote_paragraphs": 0,
+  "table_residue": 0,
+  "broken_sentence_fragments": 0,
+  "actions": [
+    {
+      "action": "retain_C_correct_flag",
+      "paragraph": "P16",
+      "C": "C3.2"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P3",
+      "excluded_M": [
+        "M10"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P10",
+      "excluded_M": [
+        "M23"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P22",
+      "excluded_M": [
+        "M35"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    }
+  ]
+}

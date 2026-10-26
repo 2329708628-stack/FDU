@@ -1,0 +1,43 @@
+{
+  "paper": "A10",
+  "source_tree": "C:\\Users\\23297\\Downloads\\FDUROP\\归档\\数据集\\数据清洗后论文\\A10\\03_实验输出\\Q_A_实验\\A_human_自然段基线\\run_论证树.json",
+  "source_sha256": "3a02f17375ef4691200cffd17a4c2d612facd4d2249d59b6b7c0ed0e849cfe1b",
+  "original_C": 19,
+  "reviewed_C": 17,
+  "quote_paragraphs": 2,
+  "table_residue": 0,
+  "broken_sentence_fragments": 0,
+  "actions": [
+    {
+      "action": "merge_quotation",
+      "paragraph": "P12",
+      "removed_C": "C2.2.2",
+      "target_paragraph": "P13",
+      "target_C": "C2.2.3",
+      "transferred_M": [
+        "M28"
+      ],
+      "added_M": [
+        "M28"
+      ]
+    },
+    {
+      "action": "merge_quotation",
+      "paragraph": "P19",
+      "removed_C": "C3.3",
+      "target_paragraph": "P18",
+      "target_C": "C3.2",
+      "transferred_M": [
+        "M22d"
+      ],
+      "added_M": [
+        "M22d"
+      ]
+    },
+    {
+      "action": "retain_C_correct_flag",
+      "paragraph": "P14",
+      "C": "C2.2.4"
+    }
+  ]
+}

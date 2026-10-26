@@ -1,0 +1,59 @@
+{
+  "paper": "A02",
+  "source_tree": "C:\\Users\\23297\\Downloads\\FDUROP\\归档\\数据集\\数据清洗后论文\\A02\\03_实验输出\\Q_A_实验\\A_human_自然段基线\\run_论证树.json",
+  "source_sha256": "a4655cebe885bb2bcd3e2d0d6b07893e10f05eafe52a8375bba83935ccb88fd0",
+  "original_C": 26,
+  "reviewed_C": 24,
+  "quote_paragraphs": 2,
+  "table_residue": 0,
+  "broken_sentence_fragments": 0,
+  "actions": [
+    {
+      "action": "merge_quotation",
+      "paragraph": "P8",
+      "removed_C": "C1.6",
+      "target_paragraph": "P11",
+      "target_C": "C1.9",
+      "transferred_M": [
+        "M35"
+      ],
+      "added_M": [
+        "M35"
+      ]
+    },
+    {
+      "action": "merge_quotation",
+      "paragraph": "P10",
+      "removed_C": "C1.8",
+      "target_paragraph": "P11",
+      "target_C": "C1.9",
+      "transferred_M": [
+        "M32"
+      ],
+      "added_M": [
+        "M32"
+      ]
+    },
+    {
+      "action": "retain_C_correct_flag",
+      "paragraph": "P9",
+      "C": "C1.7"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P5",
+      "excluded_M": [
+        "M23"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    },
+    {
+      "action": "exclude_unlisted_paragraph_M",
+      "paragraph": "P21",
+      "excluded_M": [
+        "M53"
+      ],
+      "note": "original references remain in the unchanged natural-paragraph baseline"
+    }
+  ]
+}

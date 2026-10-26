@@ -1,0 +1,72 @@
+{
+  "paper": "A09",
+  "source_tree": "C:\\Users\\23297\\Downloads\\FDUROP\\归档\\数据集\\数据清洗后论文\\A09\\03_实验输出\\Q_A_实验\\A_human_自然段基线\\run_论证树.json",
+  "source_sha256": "87abe4d8945cf5f8fef2b4c3f7e468567e995155cbd91d1920b1444d957626ae",
+  "original_C": 40,
+  "reviewed_C": 35,
+  "quote_paragraphs": 2,
+  "table_residue": 0,
+  "broken_sentence_fragments": 3,
+  "actions": [
+    {
+      "action": "merge_quotation",
+      "paragraph": "P5",
+      "removed_C": "C1.3",
+      "target_paragraph": "P4",
+      "target_C": "C1.2",
+      "transferred_M": [],
+      "added_M": []
+    },
+    {
+      "action": "merge_quotation",
+      "paragraph": "P6",
+      "removed_C": "C1.4",
+      "target_paragraph": "P4",
+      "target_C": "C1.2",
+      "transferred_M": [
+        "M24"
+      ],
+      "added_M": [
+        "M24"
+      ]
+    },
+    {
+      "action": "join_broken_sentence",
+      "paragraph": "P30",
+      "removed_C": "C3.7",
+      "target_paragraph": "P29",
+      "target_C": "C3.6",
+      "transferred_M": []
+    },
+    {
+      "action": "join_broken_sentence",
+      "paragraph": "P34",
+      "removed_C": "C3.11",
+      "target_paragraph": "P33",
+      "target_C": "C3.10",
+      "transferred_M": []
+    },
+    {
+      "action": "join_broken_sentence",
+      "paragraph": "P39",
+      "removed_C": "C3.16",
+      "target_paragraph": "P38",
+      "target_C": "C3.15",
+      "transferred_M": []
+    },
+    {
+      "action": "revise_surviving_claim",
+      "paragraph": "P29",
+      "C": "C3.6",
+      "before": "宋廷转向战略进攻后，钞法成为制夏计划开源节流的工具，军事受挫后仍维持既定路线。",
+      "after": "宋廷转向战略进攻后继续经营制夏计划，朝堂政治对立也波及盐钞制度。"
+    },
+    {
+      "action": "revise_surviving_claim",
+      "paragraph": "P33",
+      "C": "C3.10",
+      "before": "继任者延续扩大官榷并按户配卖，名义通商实为官榷，官僚资本压制市场自发调节。",
+      "after": "薛向、张景温扩大官榷并按户配卖，压制市场自发调节，使地方市场发展倒退。"
+    }
+  ]
+}
