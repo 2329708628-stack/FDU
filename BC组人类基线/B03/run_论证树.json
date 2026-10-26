@@ -1,0 +1,2784 @@
+{
+  "meta": {
+    "paper_title": "城市职能变迁与士人社会的形成：宋元时期严州的城市转型与社会结构重塑",
+    "encoding_scheme": "A-B-C-M hierarchical encoding",
+    "version": "3.2-once",
+    "run_name": "B_human_自然段基线",
+    "model": "DeepSeek-V4-Pro-0813",
+    "temperature": 0.0,
+    "frozen_config": {
+      "model": "DeepSeek-V4-Pro-0813",
+      "base_url": "https://llmapi.paratera.com/v1",
+      "temperature": 0.0,
+      "max_tokens": 8192,
+      "spec": "每个正文自然段恰好 1 个 C 节点；A=全文结论，B=章节，C=段落主张",
+      "clean_source": "原文_clean_自然段.json（full.md 自然段级重洗）"
+    },
+    "clean_source": "原文_clean_自然段.json",
+    "timestamp": "2026-10-26 14:14:28",
+    "note": "论证树一次性抽取（整篇一次调用；每个正文自然段 1 个 C 节点，纯史料引文段标记 quote_only；sources 由 anchor 段 material_refs 确定性绑定）",
+    "binding_revision": "A full roster; B descendant-C union; C direct refs plus reviewed sources"
+  },
+  "encoding_table": {
+    "A_level": [
+      {
+        "id": "A1",
+        "depth": 1,
+        "title_label": "结语",
+        "claim": "严州州县学建设通过理性行政重塑城市职能，推动形成以文化资本再生产为核心的士人城市，为韦伯理论提供东方范式。",
+        "span": [
+          "P70",
+          "P71"
+        ],
+        "sources": [
+          "M10",
+          "M100",
+          "M102",
+          "M103",
+          "M105",
+          "M106",
+          "M107",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18",
+          "M19",
+          "M20",
+          "M21",
+          "M22",
+          "M23",
+          "M24",
+          "M25",
+          "M26",
+          "M27",
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33",
+          "M34",
+          "M35",
+          "M36",
+          "M37",
+          "M38",
+          "M39",
+          "M40",
+          "M41",
+          "M42",
+          "M43",
+          "M44",
+          "M45",
+          "M46",
+          "M47",
+          "M48",
+          "M49",
+          "M5",
+          "M50",
+          "M51",
+          "M52",
+          "M55",
+          "M56",
+          "M58",
+          "M59",
+          "M6",
+          "M60",
+          "M61",
+          "M62",
+          "M63",
+          "M64",
+          "M65",
+          "M66",
+          "M67",
+          "M68",
+          "M69",
+          "M7",
+          "M70",
+          "M71",
+          "M72a",
+          "M72b",
+          "M74",
+          "M75",
+          "M76",
+          "M77",
+          "M78",
+          "M79",
+          "M8",
+          "M80",
+          "M81",
+          "M82",
+          "M83",
+          "M84",
+          "M85",
+          "M86a",
+          "M86b",
+          "M87",
+          "M88",
+          "M89",
+          "M9",
+          "M90",
+          "M91",
+          "M92",
+          "M93",
+          "M94",
+          "M96",
+          "M97",
+          "M98",
+          "M99"
+        ],
+        "source_count": 98,
+        "supported": null,
+        "supported_by": [],
+        "parent": null
+      }
+    ],
+    "B_level": [
+      {
+        "id": "B1",
+        "depth": 2,
+        "title_label": "一 城市地位的抬升：从“普通军州”到“行阙近地”",
+        "claim": "睦州在宋元时期经行政军事升格，从普通军州跃升为行阙近地，并推动士人流入与城市身份重构。",
+        "span": [
+          "P3",
+          "P39"
+        ],
+        "sources": [
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18",
+          "M19",
+          "M20",
+          "M21",
+          "M22",
+          "M23",
+          "M24",
+          "M25",
+          "M26",
+          "M27",
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33",
+          "M43",
+          "M44",
+          "M49",
+          "M5",
+          "M50",
+          "M51",
+          "M52",
+          "M55",
+          "M56",
+          "M6",
+          "M67",
+          "M68",
+          "M69",
+          "M7",
+          "M70",
+          "M72b",
+          "M8",
+          "M9"
+        ],
+        "source_count": 42,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A1"
+      },
+      {
+        "id": "B1.1",
+        "depth": 3,
+        "title_label": "(一) 行政升格与交通优势：睦州“政治城市”的雏形",
+        "claim": "睦州因军事控扼与交通孔道获得行政升格，从普通军州发展为近行在的政治城市。",
+        "span": [
+          "P5",
+          "P14"
+        ],
+        "sources": [
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18",
+          "M19",
+          "M20",
+          "M5",
+          "M6",
+          "M7",
+          "M8",
+          "M9"
+        ],
+        "source_count": 16,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B1"
+      },
+      {
+        "id": "B1.1.1",
+        "depth": 4,
+        "title_label": "1. 北宋：军事防御的职能",
+        "claim": "北宋时期睦州以军事控扼为主要职能，朝廷通过行政与驻军调整强化管控。",
+        "span": [
+          "P7",
+          "P11"
+        ],
+        "sources": [
+          "M10",
+          "M11",
+          "M12",
+          "M13",
+          "M7",
+          "M8",
+          "M9"
+        ],
+        "source_count": 7,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B1.1"
+      },
+      {
+        "id": "B1.1.2",
+        "depth": 4,
+        "title_label": "2. 南宋：行在拱卫与“行阙近地”职能",
+        "claim": "南宋严州因拱卫行在而地位抬升，形成行政与军事职能强化的近畿城市。",
+        "span": [
+          "P13",
+          "P14"
+        ],
+        "sources": [
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18",
+          "M19",
+          "M20"
+        ],
+        "source_count": 7,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B1.1"
+      },
+      {
+        "id": "B1.2",
+        "depth": 3,
+        "title_label": "（二）士人流入的实证：从“避地”到“仕官”",
+        "claim": "严州城市地位提升促使士人流入模式从避乱转变为求仕，并形成士人集聚。",
+        "span": [
+          "P16",
+          "P39"
+        ],
+        "sources": [
+          "M21",
+          "M22",
+          "M23",
+          "M24",
+          "M25",
+          "M26",
+          "M27",
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33",
+          "M43",
+          "M44",
+          "M49",
+          "M50",
+          "M51",
+          "M52",
+          "M55",
+          "M56",
+          "M67",
+          "M68",
+          "M69",
+          "M70",
+          "M72b"
+        ],
+        "source_count": 26,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B1"
+      },
+      {
+        "id": "B1.2.1",
+        "depth": 4,
+        "title_label": "1. 制度保障：士人从“避地”到“仕宦”",
+        "claim": "南宋严州通过添差官等制度安排，使士人流入由避乱转向求仕。",
+        "span": [
+          "P18",
+          "P19"
+        ],
+        "sources": [
+          "M21",
+          "M22",
+          "M23",
+          "M24",
+          "M25",
+          "M26",
+          "M27",
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33"
+        ],
+        "source_count": 13,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B1.2"
+      },
+      {
+        "id": "B1.2.2",
+        "depth": 4,
+        "title_label": "2. 经济保障：士人得以安身立命",
+        "claim": "南宋朝廷与地方官民恢复严州经济并蠲免赈济，为士人安身立命提供经济保障。",
+        "span": [
+          "P21",
+          "P23"
+        ],
+        "sources": [
+          "M43",
+          "M44",
+          "M49",
+          "M51"
+        ],
+        "source_count": 4,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B1.2"
+      },
+      {
+        "id": "B1.2.3",
+        "depth": 4,
+        "title_label": "3. 象征权力的“非正当性支配”：士人重构城市身份",
+        "claim": "严州士人通过重建秩序、为民请命与兴教办学，以非正当性支配重构城市身份。",
+        "span": [
+          "P25",
+          "P39"
+        ],
+        "sources": [
+          "M50",
+          "M52",
+          "M55",
+          "M56",
+          "M67",
+          "M68",
+          "M69",
+          "M70",
+          "M72b"
+        ],
+        "source_count": 9,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B1.2"
+      },
+      {
+        "id": "B2",
+        "depth": 2,
+        "title_label": "二 州县官学的扩张：城市职能转型与社会结构重塑的制度化路径",
+        "claim": "宋元时期严州官学由州学扩展至县学，成为推动城市职能转型和士人社会结构重塑的制度化路径。",
+        "span": [
+          "P41",
+          "P69"
+        ],
+        "sources": [
+          "M103",
+          "M105",
+          "M106",
+          "M107",
+          "M71",
+          "M72a",
+          "M74",
+          "M75",
+          "M76",
+          "M77",
+          "M78",
+          "M79",
+          "M80",
+          "M81",
+          "M82",
+          "M83",
+          "M84",
+          "M85",
+          "M86a",
+          "M86b",
+          "M87",
+          "M88",
+          "M89",
+          "M90",
+          "M91",
+          "M92",
+          "M93",
+          "M94"
+        ],
+        "source_count": 28,
+        "supported": null,
+        "supported_by": [],
+        "parent": "A1"
+      },
+      {
+        "id": "B2.1",
+        "depth": 3,
+        "title_label": "(一)从“庙学”到“州学”：韦伯“理性行政”的体现",
+        "claim": "严州州学从祭祀性庙学转变为国家理性行政延伸，承担士人阶层再生产功能。",
+        "span": [
+          "P43",
+          "P46"
+        ],
+        "sources": [
+          "M72a",
+          "M74",
+          "M75",
+          "M76",
+          "M77",
+          "M78",
+          "M79",
+          "M82",
+          "M83",
+          "M84",
+          "M88",
+          "M89"
+        ],
+        "source_count": 12,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B2"
+      },
+      {
+        "id": "B2.2",
+        "depth": 3,
+        "title_label": "（二）县学普及与“士人城市”的兴起：社会结构的重塑",
+        "claim": "六县县学普遍建立使士人培养下沉至县级，推动严州形成以士人为主体的社会结构。",
+        "span": [
+          "P48",
+          "P69"
+        ],
+        "sources": [
+          "M103",
+          "M105",
+          "M106",
+          "M107",
+          "M80",
+          "M81",
+          "M85",
+          "M86a",
+          "M86b",
+          "M87",
+          "M90",
+          "M91",
+          "M92",
+          "M93",
+          "M94"
+        ],
+        "source_count": 15,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B2"
+      },
+      {
+        "id": "B2.2.1",
+        "depth": 4,
+        "title_label": "1. 建德县学",
+        "claim": "建德县学虽因财政和州学存在而迟建，但经南宋至元修葺后促成科举盛况。",
+        "span": [
+          "P51",
+          "P52"
+        ],
+        "sources": [
+          "M103",
+          "M85",
+          "M86a",
+          "M86b",
+          "M90"
+        ],
+        "source_count": 5,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B2.2"
+      },
+      {
+        "id": "B2.2.2",
+        "depth": 4,
+        "title_label": "2. 淳安县学",
+        "claim": "淳安县学凭借县域优势建设最优，历经宋元多次修葺和学田扩充而持续办学。",
+        "span": [
+          "P54",
+          "P57"
+        ],
+        "sources": [
+          "M105",
+          "M106",
+          "M80",
+          "M81",
+          "M87",
+          "M91",
+          "M93",
+          "M94"
+        ],
+        "source_count": 8,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B2.2"
+      },
+      {
+        "id": "B2.2.3",
+        "depth": 4,
+        "title_label": "3. 遂安县学",
+        "claim": "遂安县学屡经兴废迁址，元代多次修葺后办学稳定并形成教育经费。",
+        "span": [
+          "P59",
+          "P60"
+        ],
+        "sources": [
+          "M92"
+        ],
+        "source_count": 1,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B2.2"
+      },
+      {
+        "id": "B2.2.4",
+        "depth": 4,
+        "title_label": "4. 桐庐县学",
+        "claim": "桐庐县学历经重建，元代以石基增扩而坚固宏丽。",
+        "span": [
+          "P62",
+          "P63"
+        ],
+        "sources": [
+          "M107"
+        ],
+        "source_count": 1,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B2.2"
+      },
+      {
+        "id": "B2.2.5",
+        "depth": 4,
+        "title_label": "5. 寿昌县学",
+        "claim": "寿昌县学依朝廷诏令建学，元代受到保护修葺并传播理学。",
+        "span": [
+          "P65",
+          "P66"
+        ],
+        "sources": [],
+        "source_count": 0,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B2.2"
+      },
+      {
+        "id": "B2.2.6",
+        "depth": 4,
+        "title_label": "6. 分水县学",
+        "claim": "分水县学虽基础薄弱，但在宋元坚持下扩充学田和修葺延续办学。",
+        "span": [
+          "P68",
+          "P69"
+        ],
+        "sources": [],
+        "source_count": 0,
+        "supported": null,
+        "supported_by": [],
+        "parent": "B2.2"
+      }
+    ],
+    "C_level": [
+      {
+        "id": "C1.1",
+        "anchor": "P3",
+        "text": "睦州在宋元时期经历了由普通军州向行阙近地和文化重镇的转型，城市地位提升直接引发士人流入与城市转型。",
+        "sources": [],
+        "parent": "B1",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C1.1.1",
+        "anchor": "P5",
+        "text": "睦州虽自然条件与经济水平低下，但凭借特殊城市职能成为浙右望郡，其地位源于职能变迁。",
+        "sources": [
+          "M5",
+          "M6"
+        ],
+        "parent": "B1.1",
+        "quote_only": false,
+        "source_count": 2
+      },
+      {
+        "id": "C1.1.1.1",
+        "anchor": "P7",
+        "text": "北宋初睦州属两浙路，以军事控扼为主要城市职能，朝廷以亲王遥领防御使显示重视。",
+        "sources": [
+          "M7"
+        ],
+        "parent": "B1.1.1",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.1.1.2",
+        "anchor": "P8",
+        "text": "宋廷通过调整睦州辖县和增加军费开支，加强对该地区的行政军事管理与监控。",
+        "sources": [
+          "M8"
+        ],
+        "parent": "B1.1.1",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.1.1.3",
+        "anchor": "P9",
+        "text": "地方动乱后宋廷改置州军并增派禁军，通过削减地方军事规模收回严州军事自主权。",
+        "sources": [
+          "M9"
+        ],
+        "parent": "B1.1.1",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.1.1.4",
+        "anchor": "P10",
+        "text": "严州作为镇压动乱的前线依赖军事功能，形成军事堡垒化、中央集权强化和经济依附性增强的军事消费城市。",
+        "sources": [
+          "M10"
+        ],
+        "parent": "B1.1.1",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.1.1.5",
+        "anchor": "P11",
+        "text": "北宋睦州政治地位变化曾吸引士人因官流入，但战乱使其尚未形成仕宦吸引力。",
+        "sources": [
+          "M11",
+          "M12",
+          "M13"
+        ],
+        "parent": "B1.1.1",
+        "quote_only": false,
+        "source_count": 3
+      },
+      {
+        "id": "C1.1.2.1",
+        "anchor": "P13",
+        "text": "南宋初严州因拱卫行在成为东南诸州军事中心，城市地位发生实质提升。",
+        "sources": [
+          "M14",
+          "M15",
+          "M16",
+          "M17",
+          "M18"
+        ],
+        "parent": "B1.1.2",
+        "quote_only": false,
+        "source_count": 5
+      },
+      {
+        "id": "C1.1.2.2",
+        "anchor": "P14",
+        "text": "南宋严州行政与军事职能持续强化，升为建德府并凭借皇室纽带和交通枢纽成为士人集聚的行政城市。",
+        "sources": [
+          "M19",
+          "M20"
+        ],
+        "parent": "B1.1.2",
+        "quote_only": false,
+        "source_count": 2
+      },
+      {
+        "id": "C1.2.1",
+        "anchor": "P16",
+        "text": "严州升格后行政范围扩大与经济实力增强，通过添差官制度促使士人流入由避乱转向求仕。",
+        "sources": [],
+        "parent": "B1.2",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C1.2.1.1",
+        "anchor": "P18",
+        "text": "严州人口流动从动乱时外避转为南宋稳定后回流，士人涌入推动城市转型。",
+        "sources": [
+          "M21",
+          "M22",
+          "M23"
+        ],
+        "parent": "B1.2.1",
+        "quote_only": false,
+        "source_count": 3
+      },
+      {
+        "id": "C1.2.1.2",
+        "anchor": "P19",
+        "text": "严州虽多用于贬官安置，但近畿区位使其成为京官赡养、退休荣养和升迁中转的政治资源重地。",
+        "sources": [
+          "M24",
+          "M25",
+          "M26",
+          "M27",
+          "M28",
+          "M29",
+          "M30",
+          "M31",
+          "M32",
+          "M33"
+        ],
+        "parent": "B1.2.1",
+        "quote_only": false,
+        "source_count": 10
+      },
+      {
+        "id": "C1.2.2.1",
+        "anchor": "P21",
+        "text": "南渡后严州官私共同恢复经济，使民生舒缓并为士人安身立命提供条件。",
+        "sources": [
+          "M43"
+        ],
+        "parent": "B1.2.2",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.2.2.2",
+        "anchor": "P22",
+        "text": "动乱造成的破坏延续较久，但官民共同努力使严州社会经济秩序渐趋恢复正常。",
+        "sources": [
+          "M44",
+          "M51"
+        ],
+        "parent": "B1.2.2",
+        "quote_only": false,
+        "source_count": 2
+      },
+      {
+        "id": "C1.2.2.3",
+        "anchor": "P23",
+        "text": "南宋朝廷通过蠲免赋役和赈济等措施维护严州经济，体现其超然地位和对士人的经济保障。",
+        "sources": [
+          "M49"
+        ],
+        "parent": "B1.2.2",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.2.3.1",
+        "anchor": "P25",
+        "text": "严州城市职能转向政治行政、消费、军事和贸易多重叠加，士人成为城市主体并以非正当性支配重构城市身份。",
+        "sources": [],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C1.2.3.2",
+        "anchor": "P27",
+        "text": "战乱后皇权在严州几乎真空，士人主动充任官吏并组织城池和官府重建，稳定地方秩序。",
+        "sources": [
+          "M50"
+        ],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.2.3.3",
+        "anchor": "P28",
+        "text": "动乱暴露严州管理漏洞，但士人与官府重建地方武装后已经具备独立平叛能力。",
+        "sources": [
+          "M52",
+          "M55"
+        ],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 2
+      },
+      {
+        "id": "C1.2.3.4",
+        "anchor": "P30",
+        "text": "士人通过重建县衙和实施蠲免赈济等行政实践，成为城市正当性的代理者，体现理性化支配。",
+        "sources": [],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C1.2.3.5",
+        "anchor": "P31",
+        "text": "严州士人通过为民请命与对抗官僚运作，以非正当性支配手段获取城市治理权。",
+        "sources": [
+          "M56"
+        ],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.2.3.6",
+        "anchor": "P32",
+        "text": "严州士人通过兴教办学和理学教育，将严州从军州重构为礼治空间。",
+        "sources": [],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C1.2.3.7",
+        "anchor": "P34",
+        "text": "严州士人降元标志士人社会向元朝妥协，并以此换取政权的平稳过渡。",
+        "sources": [
+          "M72b"
+        ],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.2.3.8",
+        "anchor": "P35",
+        "text": "元初严州士人以城市权力代理者身份参与县衙重建，恢复政治象征并重建社会秩序。",
+        "sources": [
+          "M67",
+          "M68"
+        ],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 2
+      },
+      {
+        "id": "C1.2.3.9",
+        "anchor": "P36",
+        "text": "元朝废除科举后地方治理仍依赖士人，士人通过理学教育实践非正当性支配并稳固城市代理者身份。",
+        "sources": [],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C1.2.3.10",
+        "anchor": "P37",
+        "text": "南宋遗民士人或拒绝出仕或济危维持秩序，均以理性化非正当性支配维护社会自主权。",
+        "sources": [
+          "M69"
+        ],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.2.3.11",
+        "anchor": "P38",
+        "text": "元初淘金扰民使严州社会秩序再次遭到破坏，士人上书官府促成废止金课并恢复秩序。",
+        "sources": [
+          "M70"
+        ],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C1.2.3.12",
+        "anchor": "P39",
+        "text": "严州在宋元时期实现政治城市士人化，行政升格触发士人流入，士人又将支配转化为参与。",
+        "sources": [],
+        "parent": "B1.2.3",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C2.1",
+        "anchor": "P41",
+        "text": "宋廷在严州恢复并加强地方教育，构建起以士人为主导的社会结构。",
+        "sources": [
+          "M71"
+        ],
+        "parent": "B2",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C2.1.1",
+        "anchor": "P43",
+        "text": "唐宋之际严州经济功能接近消费城市，州县学尚未成为城市经济的生产性力量。",
+        "sources": [
+          "M76"
+        ],
+        "parent": "B2.1",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C2.1.2",
+        "anchor": "P44",
+        "text": "两宋严州转向以官僚制调配教育资源的理性行政城市，州学成为国家行政的延伸。",
+        "sources": [],
+        "parent": "B2.1",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C2.1.3",
+        "anchor": "P45",
+        "text": "严州州学实际运行始于地方贤守兴学，其修建维护长期依赖地方官吏支持。",
+        "sources": [
+          "M72a",
+          "M74",
+          "M75",
+          "M77",
+          "M78",
+          "M79",
+          "M82",
+          "M83",
+          "M84"
+        ],
+        "parent": "B2.1",
+        "quote_only": false,
+        "source_count": 9
+      },
+      {
+        "id": "C2.1.4",
+        "anchor": "P46",
+        "text": "严州官学系统通过培养士人参加贡举进入官僚体系，实现士人阶层的再生产功能。",
+        "sources": [
+          "M88",
+          "M89"
+        ],
+        "parent": "B2.1",
+        "quote_only": false,
+        "source_count": 2
+      },
+      {
+        "id": "C2.2.1",
+        "anchor": "P48",
+        "text": "严州六县尽管等第不同，但县学普遍设置并成为基层士人社会化的核心机构。",
+        "sources": [],
+        "parent": "B2.2",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C2.2.2",
+        "anchor": "P49",
+        "text": "县学建立通过学田和学舍使城市土地从经济收益转向文化资本生产与身份收益。",
+        "sources": [],
+        "parent": "B2.2",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C2.2.1.1",
+        "anchor": "P51",
+        "text": "建德县因财政依附州府且境内已有州学，县学直至南宋后期才开始建设。",
+        "sources": [
+          "M85"
+        ],
+        "parent": "B2.2.1",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C2.2.1.2",
+        "anchor": "P52",
+        "text": "建德县学经南宋迁建修葺和元代彻底增修后规模完备，明显促进了地方科举。",
+        "sources": [
+          "M103",
+          "M86a",
+          "M86b",
+          "M90"
+        ],
+        "parent": "B2.2.1",
+        "quote_only": false,
+        "source_count": 4
+      },
+      {
+        "id": "C2.2.2.1",
+        "anchor": "P54",
+        "text": "淳安县凭借人口经济优势，县学建设明显优于他县，并持续修葺延续至元末。",
+        "sources": [
+          "M80"
+        ],
+        "parent": "B2.2.2",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C2.2.2.2",
+        "anchor": "P55",
+        "text": "淳安县学在宋代经历三次大规模翻新改建，最终使县学初具规模。",
+        "sources": [
+          "M105",
+          "M81",
+          "M91"
+        ],
+        "parent": "B2.2.2",
+        "quote_only": false,
+        "source_count": 3
+      },
+      {
+        "id": "C2.2.2.3",
+        "anchor": "P56",
+        "text": "元代淳安县学经历四次修葺而延续办学，并逐渐受到理学的影响。",
+        "sources": [
+          "M87",
+          "M93",
+          "M94"
+        ],
+        "parent": "B2.2.2",
+        "quote_only": false,
+        "source_count": 3
+      },
+      {
+        "id": "C2.2.2.4",
+        "anchor": "P57",
+        "text": "淳安县学学田不断扩充，至元代已能供养相当规模的士人，体现对教育的重视。",
+        "sources": [
+          "M106"
+        ],
+        "parent": "B2.2.2",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C2.2.3.1",
+        "anchor": "P59",
+        "text": "遂安县学虽屡经兴废迁址，但在地方官推动下恢复办学并延续不断。",
+        "sources": [
+          "M92"
+        ],
+        "parent": "B2.2.3",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C2.2.3.2",
+        "anchor": "P60",
+        "text": "元代遂安县学经多次修葺增建，并确立学租作为稳定的教育经费。",
+        "sources": [],
+        "parent": "B2.2.3",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C2.2.4.1",
+        "anchor": "P62",
+        "text": "桐庐县学历经宋代迁建和战后重建，元代重建后基础坚固而规模宏丽。",
+        "sources": [
+          "M107"
+        ],
+        "parent": "B2.2.4",
+        "quote_only": false,
+        "source_count": 1
+      },
+      {
+        "id": "C2.2.4.2",
+        "anchor": "P63",
+        "text": "元代桐庐县学在原址增扩并以石为基础，极大提升了防洪能力和耐久性。",
+        "sources": [],
+        "parent": "B2.2.4",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C2.2.5.1",
+        "anchor": "P65",
+        "text": "寿昌县学依朝廷诏令在崇宁年间建立，并通过设置学田使基础建设趋于完备。",
+        "sources": [],
+        "parent": "B2.2.5",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C2.2.5.2",
+        "anchor": "P66",
+        "text": "元代寿昌县学受到保护与推崇，多次修葺后成为传播理学和维系士人规范的中心。",
+        "sources": [],
+        "parent": "B2.2.5",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C2.2.6.1",
+        "anchor": "P68",
+        "text": "分水县虽等次最低，但宋元时期仍坚持兴教办学，并逐步扩大士人供养。",
+        "sources": [],
+        "parent": "B2.2.6",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C2.2.6.2",
+        "anchor": "P69",
+        "text": "元代分水县学依靠学官捐田和县尹修葺维持办学，并改善了地方士风。",
+        "sources": [],
+        "parent": "B2.2.6",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C3.1",
+        "anchor": "P70",
+        "text": "州县学修葺、学田扩充和理学传播使严州形成士人城市结构，士人成为城市主体并重塑城乡关系与文化共同体。",
+        "sources": [],
+        "parent": "A1",
+        "quote_only": false,
+        "source_count": 0
+      },
+      {
+        "id": "C3.2",
+        "anchor": "P71",
+        "text": "严州州县学建设体现国家通过理性行政重塑城市职能，形成以文化资本再生产为凝聚的士人城市，为韦伯城市理论提供东方范式。",
+        "sources": [],
+        "parent": "A1",
+        "quote_only": false,
+        "source_count": 0
+      }
+    ],
+    "M_level": [
+      {
+        "id": "M5",
+        "text": "①（宋）董耸编：《严陵集》卷7《睦州大厅记》，《丛书集成初编》第1696册，商务印书馆1936年版，第80页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M6",
+        "text": "②（宋）方逢辰：《严州新定续志序》，《蛟蜂先生文集》卷4，《北京图书馆古籍珍本丛刊》第88册，书目文献出版社1998年版，第797页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M7",
+        "text": "③（宋）祝穆撰，祝洙增订，施和金点校：《方舆胜览》卷5，《中国古代地理总志丛刊》，中华书局2005年版，第94页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M8",
+        "text": "④《严陵集》卷7，第80页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M9",
+        "text": "①《宋史》卷187，中华书局2004年版，第4581页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M10",
+        "text": "②（宋）方仁荣：《〈景定〉严州续志》卷6，《丛书集成初编》第3164册，商务印书馆1936年版，第67页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M11",
+        "text": "③（宋）李焘撰：《续资治通鉴长编》卷115，中华书局2004年版，第2699页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M12",
+        "text": "④《续资治通鉴长编》卷172，第4132页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M13",
+        "text": "⑤《宋史》卷447，第13177页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M14",
+        "text": "①（宋）李心传编撰，胡坤点校：《建炎以来系年要录》卷8，中华书局2013年版，第233页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M15",
+        "text": "②（元）马端临著，上海师范大学古籍研究所、华东师范大学古籍研究所点校：《文献通考》卷63，中华书局1986年版，第1892页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M16",
+        "text": "③《宋史》卷404，第12222页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M17",
+        "text": "④《宋史》卷194，第4838页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M18",
+        "text": "⑤（宋）孙应时著，胡洪军、胡遐辑注：《孙应时集》卷2，浙江古籍出版社2023年版，第46页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M19",
+        "text": "⑥（元）方回：《建德府节要图经序》，《雍正浙江通志》卷263，《中国地方志集成·省志辑·浙江》，凤凰出版社2010年版，第394页。",
+        "footnote_number": "⑥",
+        "source_full": ""
+      },
+      {
+        "id": "M20",
+        "text": "①（宋）苏轼撰；孔凡礼点校：《苏轼文集》卷32，中华书局1986年版，第906—907页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M21",
+        "text": "②《宋史》卷312，第10236页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M22",
+        "text": "③（宋）洪迈撰；何卓点校：《夷坚志补》卷3，中华书局2013年版，第1569页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M23",
+        "text": "④《宋史》卷446，第13169页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M24",
+        "text": "①《建炎以来系年要录》卷47，第985页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M25",
+        "text": "②《建炎以来系年要录》卷70，第1367页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M26",
+        "text": "③《建炎以来系年要录》卷127，第2393页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M27",
+        "text": "④（宋）徐自明撰，王瑞来校补：《宋宰辅编年录校补》，中华书局2012年版，第1011页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M28",
+        "text": "⑤《宋史》卷435，第12921页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M29",
+        "text": "⑥《宋史》卷418，第12532页。",
+        "footnote_number": "⑥",
+        "source_full": ""
+      },
+      {
+        "id": "M30",
+        "text": "⑦《建炎以来系年要录》卷158，第2999页。",
+        "footnote_number": "⑦",
+        "source_full": ""
+      },
+      {
+        "id": "M31",
+        "text": "⑧《建炎以来系年要录》卷52，第1069页。",
+        "footnote_number": "⑧",
+        "source_full": ""
+      },
+      {
+        "id": "M32",
+        "text": "⑨《建炎以来系年要录》卷152，第2872页。",
+        "footnote_number": "⑨",
+        "source_full": ""
+      },
+      {
+        "id": "M33",
+        "text": "⑩《宋史》卷395，第12058页。",
+        "footnote_number": "⑩",
+        "source_full": ""
+      },
+      {
+        "id": "M34",
+        "text": "⑪《宋史》卷434，第12872页。",
+        "footnote_number": "⑪",
+        "source_full": ""
+      },
+      {
+        "id": "M35",
+        "text": "⑫《宋史》卷424，第12654页。",
+        "footnote_number": "⑫",
+        "source_full": ""
+      },
+      {
+        "id": "M36",
+        "text": "①《建炎以来系年要录》卷81，第1531页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M37",
+        "text": "②（宋）俞彦与：《淳安县厅壁题名记》，《嘉靖淳安县志》卷13，《天一阁藏明代方志选刊》，上海书店出版社2016年版，第2页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M38",
+        "text": "③（宋）周必大撰，王瑞来校证：《周必大集校证》卷67，上海古籍出版社2020年版，第992页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M39",
+        "text": "④《建炎以来系年要录》卷64，第1264页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M40",
+        "text": "⑤（宋）张栻著，杨世文点校：《张栻集》前言，中华书局2015年版，第9页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M41",
+        "text": "⑥《周必大集校证》卷193，第2974页。",
+        "footnote_number": "⑥",
+        "source_full": ""
+      },
+      {
+        "id": "M42",
+        "text": "⑦ 汪圣铎点校：《宋史全文》卷34，中华书局2016年版，第2803页。",
+        "footnote_number": "⑦",
+        "source_full": ""
+      },
+      {
+        "id": "M43",
+        "text": "①（元）俞希鲁编纂，杨积庆、贾秀英等校点：《至顺镇江志》卷6，江苏古籍出版社1990年版，第246页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M44",
+        "text": "②《嘉靖淳安县志》卷13，第2页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M45",
+        "text": "①《建炎以来系年要录》卷65，第1276页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M46",
+        "text": "②《建炎以来系年要录》卷65，第1104页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M47",
+        "text": "③《蛟峰先生文集》卷13，第857页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M48",
+        "text": "④（元）方回：《建德府节要图经序》，《雍正浙江通志》卷263，第395页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M49",
+        "text": "①（元）姚官：《重建遂安县衙记》，《遂安县志》卷4，《中国方志丛书》，成文出版社1983年版，第340页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M50",
+        "text": "②（元）陈泌：《重建遂安县记》，《万历遂安县志》卷4，《中国史学丛书三编》，学生书局1987年版，第346页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M51",
+        "text": "③（宋）方逢辰：《徐义士旌门记》，《蛟峰先生文集》卷5，第809页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M52",
+        "text": "①（元）何梦桂著，赵敏、崔霞点校：《何梦桂集》卷9，浙江古籍出版社2011年版，第210—211页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M55",
+        "text": "②（元）方回：《桐江续集》卷35，文渊阁《四库全书》，第1193册，台湾商务印书馆1986年版，第709页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M56",
+        "text": "③（元）柳贯著，柳遵杰点校：《建德路学新制乐器记》，《柳贯诗文集》卷15，浙江古籍出版社2004年版，第325页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M58",
+        "text": "②（宋）田锡：《睦州夫子庙记》，《新刊国朝二百家名贤文粹》卷121，中华再造善本据国家图书馆藏宋庆元三年书隐斋刻本影印，第1页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M59",
+        "text": "③《柳贯诗文集》卷15，第325页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M60",
+        "text": "④《严陵集》卷8，第91页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M61",
+        "text": "⑤（宋）郑瑶、方仁荣撰，罗嘉许点校：《（景定）严州续志》卷2，浙江古籍出版社2017年版，第115页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M62",
+        "text": "⑥《（景定）严州续志》卷3，第127页。",
+        "footnote_number": "⑥",
+        "source_full": ""
+      },
+      {
+        "id": "M63",
+        "text": "⑦（明）杨守仁、徐楚：《万历严州府志》卷3，《日本藏中国罕见地方志丛刊》，书目文献出版社1990年版，第60页。",
+        "footnote_number": "⑦",
+        "source_full": ""
+      },
+      {
+        "id": "M64",
+        "text": "⑧（宋）袁枢：《通鉴纪事本末》前记，中华书局2016年版，第1页。",
+        "footnote_number": "⑧",
+        "source_full": ""
+      },
+      {
+        "id": "M65",
+        "text": "⑨《宋史》卷389，第11934页。",
+        "footnote_number": "⑨",
+        "source_full": ""
+      },
+      {
+        "id": "M66",
+        "text": "⑩（明）彭泽修等：《弘治徽州府志》卷9，《明代方志选》，学生书局1965年版，第302页。",
+        "footnote_number": "⑩",
+        "source_full": ""
+      },
+      {
+        "id": "M67",
+        "text": "①（清）常恩等：《咸丰安顺府志》卷18，《中国地方志集成》，巴蜀书社2016年版，第243页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M68",
+        "text": "②《嘉靖淳安县志》卷12，第7页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M69",
+        "text": "③《（景定）严州续志》卷5，第142页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M70",
+        "text": "①（宋）王埜：《重建建德县儒学记》，《浙江通志》卷29，第720页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M71",
+        "text": "②《万历严州府志》卷23，第504页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M72a",
+        "text": "③《柳贯诗文集》卷14，第295页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M72b",
+        "text": "④《柳贯诗文集》卷14，第295页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M74",
+        "text": "⑤《嘉靖淳安县志》卷6，第2页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M75",
+        "text": "⑥（宋）方闻：《淳安县重建学记》，《嘉靖淳安县志》卷13，第4页。",
+        "footnote_number": "⑥",
+        "source_full": ""
+      },
+      {
+        "id": "M76",
+        "text": "①《嘉靖淳安县志》卷13，第5页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M77",
+        "text": "②（宋）洪璞：《淳安县修学记》，《嘉靖淳安县志》卷13，第8页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M78",
+        "text": "③（宋）陆震发：《淳安县修学记》，《嘉靖淳安县志》卷13，第11页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M79",
+        "text": "④（宋）方逢辰：《青溪县修学记》，《蛟峰先生文集》卷5，第805页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M80",
+        "text": "⑤（元）方回：《淳安县修学记》，《嘉靖淳安县志》卷13，第15页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M81",
+        "text": "⑥（元）徐唐佐：《淳安县儒学增田记》，《嘉靖淳安县志》卷13，第18—19页。",
+        "footnote_number": "⑥",
+        "source_full": ""
+      },
+      {
+        "id": "M82",
+        "text": "⑦（元）吴瞰：《重建大成殿记》，《嘉靖淳安县志》卷13，第17页。",
+        "footnote_number": "⑦",
+        "source_full": ""
+      },
+      {
+        "id": "M83",
+        "text": "①（元）王建中：《淳安县重修儒学记》，《嘉靖淳安县志》卷13，第23页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M84",
+        "text": "②（元）王仪：《新建朱文公祠堂记》，《嘉靖淳安县志》卷14，第20页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M85",
+        "text": "③《嘉靖淳安县志》卷13，第14页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M86a",
+        "text": "④（元）何梦桂：《分水县学田记》，《何梦桂集》卷8，第205—206页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M87",
+        "text": "⑤（宋）孙应时：《遂安县学两祠记》，《孙应时集》卷9，第221页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M88",
+        "text": "①《万历遂安县志》卷2，第194页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M89",
+        "text": "②（元）王献可：《重修儒学记》，《遂安县志》卷4，第348页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M90",
+        "text": "③（元）曹友仁：《重修遂安县儒学记》，《遂安县志》卷4，第349页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M91",
+        "text": "④（元）张博源：《重修儒学记》，《桐庐县志》卷14，《中国地方志集成浙江府县志辑》第19辑，上海书店1993年版，第196页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M92",
+        "text": "⑤（清）嵇曾筠，李卫等修：《（雍正）浙江通志》卷29，第720页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M93",
+        "text": "⑥（明）吕昌期修：《（万历）续修严州府志》卷15，《日本藏中国罕见地方志丛刊》，书目文献出版社1991年版，第365页。",
+        "footnote_number": "⑥",
+        "source_full": ""
+      },
+      {
+        "id": "M94",
+        "text": "⑦（元）张博源：《桐庐县重建学记》，《养蒙文集》卷3，文渊阁《四库全书》，第1194册，第451页。",
+        "footnote_number": "⑦",
+        "source_full": ""
+      },
+      {
+        "id": "M96",
+        "text": "①（明）李思悦修，（明）洪一鳌纂：《万历寿昌县志》卷3，《明代孤本方志选》，中华全国图书馆文献缩微复制中心2000年版，第134页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M97",
+        "text": "②（元）马端临：《文献通考》卷46，中华书局2011年版，第432页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M98",
+        "text": "③《万历寿昌县志》卷3，第130页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M99",
+        "text": "④《万历寿昌县志》卷3，第134页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M100",
+        "text": "⑤（元）何梦桂：《寿昌县学记》，《何梦桂集》卷9，第213页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      },
+      {
+        "id": "M102",
+        "text": "⑦《万历寿昌县志》卷6，第306页。",
+        "footnote_number": "⑦",
+        "source_full": ""
+      },
+      {
+        "id": "M103",
+        "text": "①（清）陈常铧等：《光绪分水县志》卷4，《中国方志丛书》，成文出版社1975年版，第376页。",
+        "footnote_number": "①",
+        "source_full": ""
+      },
+      {
+        "id": "M86b",
+        "text": "②（元）何梦桂：《分水县学田记》，《何梦桂集》卷8，第205—206页。",
+        "footnote_number": "②",
+        "source_full": ""
+      },
+      {
+        "id": "M105",
+        "text": "③《何梦桂集》卷8，第206页。",
+        "footnote_number": "③",
+        "source_full": ""
+      },
+      {
+        "id": "M106",
+        "text": "④（清）王梓材、冯云濠编撰，沈芝盈、梁运华点校：《宋元学案补遗》卷39，中华书局2012年版，第2207页。",
+        "footnote_number": "④",
+        "source_full": ""
+      },
+      {
+        "id": "M107",
+        "text": "⑤《光绪分水县志》卷4，第376页。",
+        "footnote_number": "⑤",
+        "source_full": ""
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "P1",
+      "type": "title",
+      "text": "城市职能变迁与士人社会的形成：宋元时期严州的城市转型与社会结构重塑",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P2",
+      "type": "title",
+      "text": "一 城市地位的抬升：从“普通军州”到“行阙近地”",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P3",
+      "type": "text",
+      "text": "睦州在宋元时期经历了从“普通军州”到“行阙近地”再到“文化重镇”的转型。自唐末设睦州以来，历北宋宣和改制（升建德府又降为严州）、南宋咸淳再升府、元代改路，其行政级别、军事地位与市场机会屡经变动。其城市地位的提升直接触发了士人从“避地”到“仕宦”流动模式的转变。睦州在宋元时期的跃迁，恰好印证了韦伯所谓“政治城市”对士人阶层的磁吸效应。",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P4",
+      "type": "title",
+      "text": "(一) 行政升格与交通优势：睦州“政治城市”的雏形",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P5",
+      "type": "text",
+      "text": "睦州处于浙右，形势与邻州相比最为险峻，“洎于山峻二江合会之势”①，“界于万山之窟”；而出产及经济发展水平与周边州郡相较，“其等为最下下”。而睦州之所以成为浙右望郡，并非“有子陵之风在也”②，更多的是缘于其在宋时特殊的城市职能。宋朝时，睦州的城市职能经历了两次变迁，到元时更是成为东南地区的文化重镇。",
+      "material_refs": [
+        "M5",
+        "M6"
+      ],
+      "page": "245"
+    },
+    {
+      "id": "P6",
+      "type": "title",
+      "text": "1. 北宋：军事防御的职能",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P7",
+      "type": "text",
+      "text": "北宋初这一地区名为睦州，属两浙路，其城市职能以军事控扼为主。宋初，江南初定，睦州作为控扼吴越故都杭州的前沿，其城市职能就是以军事防御为主。“逮国初钱氏纳土，始入版图，太宗以亲王领防御使”，“政和升为建德军节度”③，这是自唐以来首次对睦州的行政升格，军州并立，虽非“接境聚军以控扼之”之意，但以亲王遥领防御，足见朝廷的重视程度。",
+      "material_refs": [
+        "M7"
+      ],
+      "page": "245"
+    },
+    {
+      "id": "P8",
+      "type": "text",
+      "text": "为加强控扼，宋廷进一步将钱鏐吴越国的行政中心地带打乱重整。一方面将原属于杭州的桐庐、分水与原属睦州的建德、淳安、寿昌、遂安重新捏和在一起，从而起到控扼杭州的商贸、燃料等重要生产、生活物资，加强监控防范的作用；另一方面加大对严州地区的军费开支，“自国家有兵甲之费，不入内府，经用所入，浙右重于江淮，兹郡重于他郡”④。出于政权的平稳过渡与军事防控的考虑，宋政府加强了对睦州的行政军事管理。",
+      "material_refs": [
+        "M8"
+      ],
+      "page": "245"
+    },
+    {
+      "id": "P9",
+      "type": "text",
+      "text": "宣和二年，爆发声势浩大的方腊起义。方腊起义平定后，宋廷实施了一系列政治军事调整措施：“宣和三年，改睦州建德军为严州遂安军”，形成“州—军”分置的政治军事体制，同时“增置严州威果禁军”①。国家通过增加中央禁军的数量以削减地方军事规模，表明中央的态度是进一步收回严州军事自主权。",
+      "material_refs": [
+        "M9"
+      ],
+      "page": "245"
+    },
+    {
+      "id": "P10",
+      "type": "text",
+      "text": "严州作为镇压起义的前线据点，其地位主要依赖于军事功能而非经济腹地。此时城市特征为：其一，军事堡垒化：筑城设寨，如淳安县设“威平寨”“港口寨”分控徽、严、衢三州交界②。其二，加强中央权力，地方行政地位明升暗降：原州改名，节镇不驻州治，都说明了宋廷不再信任地方，“宣和三年，改睦州为严州，军为遂安军”；同时以皇子出镇，表明了朝廷收回地方军权的决心，“十二月高宗皇帝以皇子领遂安、庆源军节度使”。其三，地方经济依附性增强：严州本身土瘠民贫，再经战火蹂躏，贸易停滞，经济衰退，“官兵月廪取米于邻郡”，城市转向“军事消费城市”特征。",
+      "material_refs": [
+        "M10"
+      ],
+      "page": "245"
+    },
+    {
+      "id": "P11",
+      "type": "text",
+      "text": "北宋初期，睦州的政治地位变化直接吸引士人迁入。范仲淹于景祐元年（1034）“知睦州，不半岁徙苏州”③，虽任期短暂，其“庆历新政”背景下的兴学举措，却开启了士人“以官为媒”流入睦州的先河，范仲淹抑或同时期知睦州的张肃④等人来睦州都是因罪被贬。而宣和时期，因方腊起义战火绵延，士人纷纷“避祸”，离开严州。如《宋史·李邈传》载：方腊起义后，“竭数路之力而后能平之”⑤，部分士人避乱由城而入山中，由严州而至它郡，此时的严州尚未形成仕宦吸引力。",
+      "material_refs": [
+        "M11",
+        "M12",
+        "M13"
+      ],
+      "page": "245"
+    },
+    {
+      "id": "P12",
+      "type": "title",
+      "text": "2. 南宋：行在拱卫与“行阙近地”职能",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P13",
+      "type": "text",
+      "text": "严州的地位提升始于宋南渡以后，建炎元年（1127）宋高宗定都南京，以临安府为行在，八月时隆祐太后出发南京，“侍卫亲军马军副都指挥使遂安军承宣使郭仲荀落副字，部禁旅从太后行”，此时“江、淮、荆、浙、闽、广诸州皆为所隶”①。可见，此时遂安军所在严州已成为东南诸州郡的军事中心。马端临对此有一定的解释，《文献通考》记载宋时留守司“掌宫钥，及京城守卫、修葺、弹压之事”，“畿内钱谷、兵民之政”。而建炎初，南京周边并无成建制的武装军队，因此“以检校少傅、宁武军节度使范讷充留守，以侍卫亲军都指挥使、遂安军承宣使郭仲荀副之”②。此外，建炎三年时，以柳约知严州，“兼浙西兵马都监、节制管内军马”③，建炎四年时，又将神武义军统制王璣下阅到第三等军兵中，“其不任披带者，分填严州新禁军”④。这也进一步证明，严州因“中兴以来，行阙尤近”⑤，其城市地位发生了质的提升。",
+      "material_refs": [
+        "M14",
+        "M15",
+        "M16",
+        "M17",
+        "M18"
+      ],
+      "page": "246"
+    },
+    {
+      "id": "P14",
+      "type": "text",
+      "text": "至南宋宝祐三年（1255），严州更升为“建德府”，其长官“节制军马”的权限进一步扩大。这种“行政—军事”职能的强化，使严州从单纯的“军事城市”（依赖朝廷财政供养）向“行政城市”转化。其城市特征为：其一，严州成为地方与皇室的纽带。建炎元年，皇子赵构领遂安军节度使；咸淳元年，度宗以“潜藩之地”升严州为建德府。严州作为三辅之地，成为皇权延伸的象征空间。其二，严州成为南宋交通中枢。新安江—富春江航道与杭嘉湖平原构成了南宋重要的交通及商旅贸易空间，“加以南渡都杭，是为西南数百里之孔道，舟车必由”⑥，严州的水路枢纽地位与行政升格相辅相成。北宋时苏轼于《乞相度开石门河状》中描述了睦州作为水利枢纽的重要地位，“自衢、睦、处、婺、宣、歙、饶、信及福建路八州往来者，皆出入龙山，沿诉此江，江水滩浅，必乘潮而行”，而衢、睦等州，“岁常漕苏、秀米至桐庐，散入诸郡”，且“钱塘亿万生齿，待上江薪炭而活”，又“衢、婺、睦、歙等州及杭之富阳、新城二邑，公私所食盐，取足于杭、秀诸场”①。所以严州在行政上升格为临安的三辅也是有着独特的地理优势的。其三，严州成为南宋士人集聚荟萃之地。优越的政治区位及城市职能的不断拓展吸引了优秀士人的流入，既有如张栻、吕祖谦等理学家，又有各类官员，他们政绩出众，深受严州百姓爱戴，逐渐构筑成严州的士人群体。",
+      "material_refs": [
+        "M19",
+        "M20"
+      ],
+      "page": "247"
+    },
+    {
+      "id": "P15",
+      "type": "title",
+      "text": "（二）士人流入的实证：从“避地”到“仕官”",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P16",
+      "type": "text",
+      "text": "宋廷南渡前后，严州从“军州”转型为“行阙近地”，其政治—行政职能的强化成为士人流入的核心动力。严州升格后，城市职能的变化也为士人阶层的流入提供了制度保障及良好的生活居住条件。首先表现为，随着城市行政范围的扩大导致职位冗余，南宋“添差官”制度使严州教授、通判等职位成为士人“待次”之所。其次表现为严州作为贸易中心，地方财政的经济激励，彰显了其经济实力足可供养士人。而这种行政资源的再分配，使士人流入严州由“避乱”转向“求仕”。",
+      "material_refs": [],
+      "page": "248"
+    },
+    {
+      "id": "P17",
+      "type": "title",
+      "text": "1. 制度保障：士人从“避地”到“仕宦”",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P18",
+      "type": "text",
+      "text": "北宋末至南宋初，严州人口流动呈现出流出到回流的趋势来。北宋末，方腊起义于青溪，拥兵入杭，士民纷纷避于它境。而其时兵乱纷起，兵贼难辨，相邻的歙州等州郡闭门不纳，“有避贼来归者，获罪，使出境”②，因此严州以及邻郡的山林洞穴多成为避难之所。如富人黄汝楫，“宣和中，闻方腊犯境，以素所积金银缗钱，计值二万贯，瘗于居室，而避地于深山”③。而当时因忤王黼意，被贬通判杭州摄睦州事的张確，对于方腊党徒的认识与他人不同，他认为“此皆王民，但庸人扰之耳”，因此“有自贼中逃归者，悉宥之”④，相对宽厚的措施渐渐平复时局动荡，潜逃在外的士民逐渐返归严州。绍兴和议后，宋金对峙，严州地区局势进一步稳定，加之其特殊的行政区位优势成为“行阙近地”，成为不少入朝士人的不二之选，士人不断涌入严州，开展各种政治文化活动，推动了严州的城市转型。",
+      "material_refs": [
+        "M21",
+        "M22",
+        "M23"
+      ],
+      "page": "248"
+    },
+    {
+      "id": "P19",
+      "type": "text",
+      "text": "严州虽风光优美，奈何地势险峻，土狭地瘠，百姓生活困苦，兼之常有匪患侵扰，并不是仕宦佳地，多为罪臣贬官安置之地。南宋时给事中李擢因尝事伪庭，“罢为显谟阁待制，知严州”①；承信郎杨有因临安失火救火不利，被“追一官，编管严州”②；礼部员外郎胡理因作赵鼎党被贬，“知严州”③；观文殿学士孟庾因提举万寿观不利，“除知严州”④；胡寅因上言，被词臣忌嫉，“复以待制改知严州，又改知永州”⑤；魏克愚忤贾似道，“贬严州”⑥等等。然而，能够贬职近辅实际上是朝廷恩典，并不是随意安置；降授武功大夫辛道宗被“房州羁管”，就是因为“寓居严州”，被侍御史上奏“移居近地，窥伺朝廷，阴为不靖”⑦，所以被下诏斥之远方，这与严州特殊的行政区位不无关系。严州虽非隶属京师，却具有丰富的政治资源。首先，作为京官赡养父母之地：尚书左司员外郎潘良贵以父老乞补外，“乃除直龙图阁，知严州”⑧。其次，可作为退休荣养之地：吏部尚书罗汝橈有引年之请，“为龙图直学士，知严州”⑨。陆游起知严州，上谕曰：“严陵山水胜处，职事之暇，可以赋咏自适。”⑩第三，严州还是官员升迁中转之地：吕祖谦，“除太学博士，时中都官待次者例补外，添差教授严州，寻复召为博士兼国史院编修官、实录院检讨官”⑪；孙梦观，“力请外，添差通判严州，主管崇道观，召为武学博士、太常寺丞兼诸王宫大小学教授，大宗正丞兼屯田郎官、将作少监”⑫等等。这些史料显示严州已成为南宋官僚由外入京的重要路径，是士人“入京求宦”的中转站。",
+      "material_refs": [
+        "M24",
+        "M25",
+        "M26",
+        "M27",
+        "M28",
+        "M29",
+        "M30",
+        "M31",
+        "M32",
+        "M33"
+      ],
+      "page": "248"
+    },
+    {
+      "id": "P20",
+      "type": "title",
+      "text": "2. 经济保障：士人得以安身立命",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P21",
+      "type": "text",
+      "text": "严州作为行在之辅郡，南渡前后，为恢复地方经济，宋廷上下，官私两方做了许多努力，使得民生得以纾缓，士人得以安身立命。绍兴四年（1134），严州桐庐县进士方行之更能“献家财七千缗助军”①以补官，可见严州经济之恢复。",
+      "material_refs": [
+        "M43"
+      ],
+      "page": "248"
+    },
+    {
+      "id": "P22",
+      "type": "text",
+      "text": "然而，方腊起义给严州社会经济造成的损失也是巨大的，其流毒更是延续到了孝宗淳熙时期。不过在官民共同努力之下，严州的社会经济生活渐趋恢复正常。宣和三年（1121），淳安县“公私庐舍悉为灰烬，民之毙于兵疫者什有八”，朝廷任命官吏皆“再受命不果来”，严州兵曹俞彦与暂摄县政，两年之内，县丞朱璨、监征赵伉、主簿许伯常、县尉江公路等，相继而至。在这些官吏的带领之下，经济恢复，“朝廷复税，今逾三年，民之输赋者，稽首争先焉”②。距方腊之乱一甲子之后，淳熙五年（1178），萧燧知严州的任上，州县财用匮乏，遂安令缩减土兵廪给后，群情汹汹，淳安县积欠数千缗。萧燧“俭以节用，不二年，积至十五万缗”，“属邑俱宽”③。",
+      "material_refs": [
+        "M44",
+        "M51"
+      ],
+      "page": "248"
+    },
+    {
+      "id": "P23",
+      "type": "text",
+      "text": "此外，高宗朝时因民困，曾下诏免去严州应免解人及太学生的丁役$^{④}$；孝宗朝，应张栻请，免去严州百姓丁盐钱绢之半$^{⑤}$；理宗朝时因水旱灾害，也曾多次赈济严州，“赈粜米万六千石，上并令改作赈济”$^{⑥}$，“诏去岁严州水患田租其悉蠲之”$^{⑦}$。而后，推行景定公田之时，更是直接将杭州与严州排除在外，“除严州山郡、杭州辇下，湖、秀、苏、常、镇江、江阴六郡先买，而次第他处”①。由此可见，严州在南宋时期城市地位的超然，以及宋廷为恢复严州经济而做出的努力，以及经济上给予士人生活所提供的保障。",
+      "material_refs": [
+        "M49"
+      ],
+      "page": "248"
+    },
+    {
+      "id": "P24",
+      "type": "title",
+      "text": "3. 象征权力的“非正当性支配”：士人重构城市身份",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P25",
+      "type": "text",
+      "text": "宋廷南渡后，严州城市地位的升格，一方面带来了城市职能的变化，由原来的“政治—行政”职能逐渐转变为多重职能，包括“消费城市”、“军事城市”以及“贸易—转口城市”等职能，这些职能在韦伯的理论中均属于“非正当性支配”。在韦伯的理论中，古代的中国因其牢固的官僚体制，不会出现所谓市民具有自主权以及军事自主权的城市。然而，严州因其独特的地理条件、历史遭遇以及特殊的行政地位，导致了士人成为严州的城市主体。士人在建立理想城市的同时，进行了所谓的“非正当性支配”，重构了自己的城市身份。",
+      "material_refs": [],
+      "page": "251"
+    },
+    {
+      "id": "P26",
+      "type": "title",
+      "text": "(1) 官府与士人共建权威象征：衙署与军队",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P27",
+      "type": "text",
+      "text": "宣和三年，严州方腊起义基本平息，但余烬未灭，百姓流离失所，瘟疫横行。此时，皇权在严州几乎成为真空，其中以淳安县为最甚，宋廷任命的官吏无一人到任，严州兵曹临时掌管政务。自愿前来的士人充任官吏，“一无扰于民，民亦相戒以弗犯”，当地百姓在“力农之余，咸请出力”，“以营官府运土木陶瓦梵，操刘削者肩摩而袂，属门觐堂堂仓库馆狱，一切备具”②。同年，在知州周格的主持下，重铸了毁于方腊之乱的城墙。",
+      "material_refs": [
+        "M50"
+      ],
+      "page": "251"
+    },
+    {
+      "id": "P28",
+      "type": "text",
+      "text": "方腊之乱，也进一步暴露出了宋王朝在此类城市管理上的漏洞：管理机构简单松懈、防备薄弱，对地方社会的控制力有限，在面对社会巨变与突发事件时，缺乏有力的对策，地方衙署辖下的乡兵、保甲不能很好地协调处理。而经过士人与官府的共同建设，严州的弓手保甲也渐具一定的战力。绍兴三年，“遂安民缪罗以匿妖民余五婆，为官兵所捕，遂率其徒据白马源，群出拒敌”；“知严州颜为遣兵马监押、从义郎王宏将射士、保甲六千余人捕之”①。而等到朝廷大军赶到时，“神武中军统制杨沂中以大军至桐庐县，而魔贼缪罗与其徒八人已就招”②。可见严州地方军队经过重建，已不是方腊起义时的水平，无需朝廷正规军队出手，就已经能够轻松平叛。",
+      "material_refs": [
+        "M52",
+        "M55"
+      ],
+      "page": "251"
+    },
+    {
+      "id": "P29",
+      "type": "title",
+      "text": "(2) 士人通过行政实践成为城市代理人",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P30",
+      "type": "text",
+      "text": "严州县衙等象征权力的重建，使士人成为城市正当性的“代理人”。而韦伯所谓“理性化支配”也在严州士人的行政实践下，如：蠲免赋税、赈济灾荒等举措的实施中不断凸显，契合了韦伯所谓“非正当性支配”的城市特征。",
+      "material_refs": [],
+      "page": "251"
+    },
+    {
+      "id": "P31",
+      "type": "text",
+      "text": "宋度宗咸淳时期，淳安县士民董有真等将这种保护百姓“不尽其力，不伤其财”的行政权力进行了彻底的贯彻。因淳安县吏过数增收夏税秋苗，“前官去时削尽膏脂，后官来时划尽地皮”，而“欲以畀辟正理鸣于县官而县官不之受，欲以此情此意白于郡使而州县相为表里”③，董有真等不得不上书给时任吏部侍讲侍郎的方逢辰，以求能够上达天听，获得皇帝的支持。可见，此时士人阶层已经站到了官僚阶级的对立面，为民请命，成为严州的城市代理者和传声筒，也是通过这种“非正当性支配”的手段，获取了城市的治理权。",
+      "material_refs": [
+        "M56"
+      ],
+      "page": "251"
+    },
+    {
+      "id": "P32",
+      "type": "text",
+      "text": "此外，严州士人还通过兴教办学，力图通过理学教育，将严州从“军州”重构为“礼治空间”。张栻在任上重建州学，朱熹作《右文殿修撰张公神道碑》，赋予严州“道统”象征。",
+      "material_refs": [],
+      "page": "251"
+    },
+    {
+      "id": "P33",
+      "type": "title",
+      "text": "(3) 元朝废除科举: 政治城市士人化的进一步加深",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P34",
+      "type": "text",
+      "text": "至元十三年（1276）二月，随着严州军民在方回的带领下投降元军，临安府的最后倚仗也彻底消散，不久，南宋太皇太后携玉玺和降表正式向元朝投降。方回等为代表的严州士人投降元朝，也标志着严州士人为代表的士人社会对元朝政府表示了妥协，换来的是方回记录的宋元政权的平稳过渡，“秋毫无犯，市不易肆，宽书屡下，弛征蠲赋，民乐有生”④，然而这种过渡，实际上是在南宋军民顽强抵抗，元军强大武力碾压下实现的。",
+      "material_refs": [
+        "M72b"
+      ],
+      "page": "251"
+    },
+    {
+      "id": "P35",
+      "type": "text",
+      "text": "战火过后，严州下辖六县，几乎都是一片狼藉，官私房舍，荡然无存，社会秩序急需重新建构。于是严州士人仍以城市权力代理者的身份出面，与元朝派来的官吏共同进行城市的重建工作。仅以遂安县为例，遂安县衙作为地方秩序的象征，在宋元交替之时被乱军焚毁，后经宣差刘帖木耳、县尹朱世荣筹下，由县治内各都巨室出资建造，于至元十四年历一月有余告成①。县衙的重建，标志着地方士人对元政权的支持及社会秩序的恢复。后因旧县衙四十年来宇栋颓挠，前后两任县尹鲁德海及伯颜察儿主持修葺，于至治二年（1322）十一月，对县衙完成了翻新重建。这一举动对遂安县社会影响颇大，“衙仪肃振，戍鼓夜严，民知所仰矣”，标志着遂安士人阶层在官方支持下重塑了政治权利的象征及士人为代表的社会秩序，“子民亲上，交得所愿”②，重新获得了对城市权力的代理权。",
+      "material_refs": [
+        "M67",
+        "M68"
+      ],
+      "page": "251"
+    },
+    {
+      "id": "P36",
+      "type": "text",
+      "text": "元朝废除科举，而地方治理又离不开士人的支持，于是以士人作为城市代理者的社会结构进一步加深，严州士人依托程朱理学，在六县广泛地建立官私学校进行儒家思想的教育与传播，利用儒家的政治思想实践，进行了所谓的“非正当性支配”，稳固自己的城市身份。",
+      "material_refs": [],
+      "page": "251"
+    },
+    {
+      "id": "P37",
+      "type": "text",
+      "text": "南宋遗民士子在理学的熏陶下，尤重气节，大多在元政权建立之后选择隐居乡里不肯出仕元廷，成为元皇权的执行者，但是作为严州城市权力代理者，在面对严州出现危急事件时却挺身而出，维持城市的正常秩序。比如至元十九年（1282），严州地区遭遇饥荒，士人徐洪甫舍家财赈济饥民，浙西道宣慰使司奉行中书省札，旌其门闾，榜曰“积善徐家”，拒绝出仕的方逢辰欣然为之作记。而同年，拒绝投降的文天祥在大都就义，二者并无直接联系。但是，方逢辰的文章表示，“严在万山中，本无富家，然有洪甫之力，无洪甫之心。故宁辱身以藩货，不肯扶危以利物，有司此举岂为一家，所以愧鄙夫励薄俗也”③，可见气节是一回事，士风是一回事。儒者的两种选择，其实是一回事，都是采取了这种理性化的“非正当性”的支配来取得对于社会的自主权。",
+      "material_refs": [
+        "M69"
+      ],
+      "page": "251"
+    },
+    {
+      "id": "P38",
+      "type": "text",
+      "text": "又如，至元时期，严州六县百姓在官方的教授下，“督具器物，使之披沙抉石而汰焉”进行淘金，开始时能够获取一定金沙，“民喜，殆谓天雨而鬼之输也”，但“初岁粗给，再岁而亏，三岁而竭”，“而其所司又重之以掊克槌剥、羁绁笞捶之害”，导致“二三年间，大户病，中户贫，下户卖妻鬻子不足于偿，而逮及邻比亲姻，至于流离转徙者比比也”，严州的社会秩序再次遭到破坏。此时，严州的士人阶层再次发挥作用，上书郡侯、省官，在官方的调解下，“金课特罢建德一路，从所请也”①。",
+      "material_refs": [
+        "M70"
+      ],
+      "page": "251"
+    },
+    {
+      "id": "P39",
+      "type": "text",
+      "text": "可见，宋元时期，严州实现了政治城市的“士人化”。严州案例表明了政治城市与士人阶层的共生逻辑：城市地位提升与士人流入并非单向因果，而是韦伯所谓“正当性支配”的建构过程，其表现特征为：第一，行政升格是触发器：从“军州”到“行阙近地”，严州通过军事、皇室纽带获得政治中心性，打破韦伯所言“氏族纽带”的束缚（如中国宗族未能形成城市公社）。第二，士人是转化者：他们将行政资源转化为文化权威，通过教育、赈灾、著述将“非正当性支配”逐步理性化。最终，严州从“控扼山谷”的军事据点，演变为“行阙近地”的文化—行政节点，印证了韦伯的洞见：政治城市的生命力，在于其能否将“支配”转化为“参与”，而士人正是这一转化的关键媒介。",
+      "material_refs": [],
+      "page": "251"
+    },
+    {
+      "id": "P40",
+      "type": "title",
+      "text": "二 州县官学的扩张：城市职能转型与社会结构重塑的制度化路径",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P41",
+      "type": "text",
+      "text": "建德府在唐时被称为睦州，而唐至开宝末时就已经形成了州县乡里四级教育制度$^{②}$，可见唐时睦州地区应存在州县乡学。至五代十国时期，尽管吴越国经济较为发达，且睦州为吴会辅郡，但受钱镠崇信佛教的影响，地方教育基本处于衰败之中。而自钱镠归降宋朝后，宋廷恢复了对睦州地区的掌管，并逐步加强了地方经济文化建设，推行崇文抑武的基本国策，通过大力开展地方教育建设，在睦州地区构建起以士人为主导的社会结构。",
+      "material_refs": [
+        "M71"
+      ],
+      "page": "254"
+    },
+    {
+      "id": "P42",
+      "type": "title",
+      "text": "(一)从“庙学”到“州学”：韦伯“理性行政”的体现",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P43",
+      "type": "text",
+      "text": "韦伯在《经济与社会》中指出，城市的经济本质乃是一种“市场聚落”（marketsettlement），其类型可分为“消费城市”“生产性城市”与“商业城市”①。早期严州（睦州）在唐宋之际，因其地处钱塘江上游，控扼杭秀歙徽等其他邻近各州郡的水利交通、贸易往来，而本身又土瘠民贫，经济功能更接近于“消费城市”：其购买力主要依赖于政治性收入（如官员俸禄、赋税再分配）与地租消费（如建德、淳安等地的宗族地主）。此时的州县学（如唐代的庙学）亦未脱离“祭祀—礼仪”的宗教性消费功能，尚未成为城市经济的生产性力量。",
+      "material_refs": [
+        "M76"
+      ],
+      "page": "255"
+    },
+    {
+      "id": "P44",
+      "type": "text",
+      "text": "然而，两宋之际，随着中央集权强化与科举制度化，严州逐步转向成为“理性行政城市”（rationaladministrativecity），这种城市类型的核心是“官僚制对教育资源的系统调配”，以培养一个“以考试为通道的身份集团”（statusgroup）。严州州学在范仲淹、赵抃等地方官主导下的重建，正是这一转型的标志：州学不再是祭祀孔子的象征性场所，而成为国家理性行政的延伸——通过学田制度、学官设置、解试漕试的层级选拔，将地方士人纳入国家官僚体系的再生产轨道。",
+      "material_refs": [],
+      "page": "255"
+    },
+    {
+      "id": "P45",
+      "type": "text",
+      "text": "唐时睦州州治旧在淳安内，武周神功元年（697年）移治建德②，因此州学应原建于建德，在府城东南，但久已荒废，至雍熙之时，“睦始迁庙建学，自谏议倡之”③。田锡《睦州夫子庙碑记》记载睦州当时实“乡饮酒之礼久废，人不知尊卑；党有序之学久废，人不识廉耻”。而据田文所载，田锡只是在雍熙三年（986）$^{①}$将已经毁于水灾的夫子庙迁至府治西边乌龙山脉之上，并上书朝廷请降祭器与九经$^{②}$，并未明言依庙建学。而睦州州学的实际运行应始于范仲淹知睦州之时，“馆生师，备教养，则成于文正、清献”$^{③}$。知州向俟也推行庆历新政奉诏增广学舍，知州赵抃也曾增广学田。赵抃还在嘉祐三年（1058）特别撰文说明了睦州办学的重要作用，“距今业精而上，第无虚榜，数十年间，以今较昔，得人为三倍夥”$^{④}$，可见兴教办学的重要性。北宋时期，州学曾设立专门的学官一员，“其学官有州学教授，间有添差教授，然不常置”$^{⑤}$，然而宋末兵兴，“乃至阙官，绍兴二年复置”$^{⑥}$。虽然睦州州学专设学官，但是州学的兴建修葺往往依靠的是知州官吏，自州学设置以来宋代一共经历三次大规模翻新修葺，一是田锡西迁、范仲淹建学舍，二是大观中李陛翻新，三是绍兴时张栻改门、胡寅翻新屋舍$^{⑦}$，全部是依靠地方贤守的支持，而之后直至元末基本上是修修补补。",
+      "material_refs": [
+        "M77",
+        "M72a",
+        "M83",
+        "M84",
+        "M78",
+        "M79",
+        "M74",
+        "M75",
+        "M82"
+      ],
+      "page": "255"
+    },
+    {
+      "id": "P46",
+      "type": "text",
+      "text": "官僚制国家的教育扩张会制造一个“以考试为通道”的身份集团，严州士人在州学学习，参加贡举考试进入官僚系统，形成“士一官”流动，再授以学官，如：南宋时：袁枢，乾道九年（1173）出任严州教授，通鉴纪事本末就是在这个时期编纂的$^{⑧}$，孝宗读《通鉴纪事本末》嘉叹，“治道尽在是矣”$^{⑨}$；吴自牧被“处以学职，由录而正，领袖多士”，“发明动静之旨，浴沂之意，格物之学，非苟作者比”$^{⑩}$；陈淳待试中都时，“归遇严陵郡守郑之悌，率寮属延讲郡庠”，“遂发明吾道之体，统师友之渊源，用功之节目，读书之次序，为四章以示学者”①；元朝时：洪震老“以诗经领乡荐，与时相书，言词梗直，时论韪之，为州学正”②等；均体现了官学系统对士人阶层的再生产功能。",
+      "material_refs": [
+        "M88",
+        "M89"
+      ],
+      "page": "255"
+    },
+    {
+      "id": "P47",
+      "type": "title",
+      "text": "（二）县学普及与“士人城市”的兴起：社会结构的重塑",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P48",
+      "type": "text",
+      "text": "宋元时期严州（建德府）下领六县，各县等第各不相同：南宋景定时除建德县作为州治附庸外，淳安县作为望县壮于其他诸县，至于桐庐、遂安仅为上县，分水县一直被划为中县，淳祐十二年（1252）才升为上县，至于寿昌更是因为地狭人稀作为被视为诸县之末，这一情况至元代仍未改观。尽管如此，严州州县历任执政官并没有停止在地方办学兴教、培养士人的举措，除州学外在各县均设置了县学，并不断修葺完善、延请名师，各县县学发展水平虽有不同，但也因此聚集了大量慕学崇文的士子前来求学。县学的建设，使士人培养从府级下沉至县级，这些士子也就构成了严州（建德府）士人社会的基础，县学也已成为基层士人社会化的核心机构。",
+      "material_refs": [],
+      "page": "257"
+    },
+    {
+      "id": "P49",
+      "type": "text",
+      "text": "严州六县县学的普遍建立（如淳安、遂安、建德），本质上是国家通过教育制度重新定义城市不动产收益能力的过程：学田的划拨与学舍的修建，使城市土地从传统的房宅所有权（经济收益）转向了文化资本的生产场所（身份收益）。",
+      "material_refs": [],
+      "page": "257"
+    },
+    {
+      "id": "P50",
+      "type": "title",
+      "text": "1. 建德县学",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P51",
+      "type": "text",
+      "text": "建德县学设于南宋后期，重修于元代，历经三次兴复，毁于元末战火。建德县作为宋代睦州（后为严州，元时为建德路）州治所在，在地方行政上基本依附于州府，“凡赋敛率输于州，县无赢赀，亦无逋责”③。建德县无行政资金，就无法进行建设本县县学，加之境内已设州学，也无另行兴办的必要。因此，直至嘉定六年（1213）在县尹陈德一的推动下才开始建设。",
+      "material_refs": [
+        "M85"
+      ],
+      "page": "257"
+    },
+    {
+      "id": "P52",
+      "type": "text",
+      "text": "建德县在北宋时期只设孔庙祭拜，后因水患孔庙坍塌，嘉定六年，县尹陈德一在县门之东侧重建孔庙并依庙兴学，由于设施并不完备，后改作他用。后任县尹惠德夫于淳祐庚戌（1250），将县学另迁新址，这次兴学在以知州赵汝历等人的资助下增添了四所学斋，但仍旧“庖廪未裕”①，有待进一步增修。兴建县学的影响是明显的，咸淳四年（1268），建德县应试中举四人，“其三皆比居于城，视他时尤盛”②，这是自咸平三年以来从未有过的盛况。元朝南北一统后，建德县学坚持修葺，但“比数十年，尝屡名缮治，而但取苟完，无虑经久”③。直至元末，这一情况才得以改观。新任县尹张永坚先是延请名师兴学，待百姓了解兴学的重要性后，于至顺元年（1330）春天动工历经数月，“撤旧即新，为弦诵之斋六楹间，殿室堂序，门闼庖廪，上栋下宇，除道周垣，涂墜垩膚，内外整饰”④，建德县学这才算是增建修葺完整。",
+      "material_refs": [
+        "M103",
+        "M86b",
+        "M90",
+        "M86a"
+      ],
+      "page": "257"
+    },
+    {
+      "id": "P53",
+      "type": "title",
+      "text": "2. 淳安县学",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P54",
+      "type": "text",
+      "text": "淳安县是宋元时期严州（建德府）治下六县中人口与经济之最，又因系唐以来旧州治所在，县学的建设明显优于其他诸县。淳安县县学始建于北宋，由县尹孙谠主持始建于宋太宗至道三年（997）$^{⑤}$，毁于方腊起义，南宋重建后，直至元末多次翻新修葺、增建学田，未曾废止。",
+      "material_refs": [
+        "M80"
+      ],
+      "page": "258"
+    },
+    {
+      "id": "P55",
+      "type": "text",
+      "text": "宋时，淳安县学经历了三次重大翻新改建。淳安县学位于县治东南，县学毁于方腊之乱，“居民顷议修复，或谓时方军兴，此非急务。过者视之，不趨如弁髦土梗，恬不之恤，更五县令，俱不克成”⑥。直至宋南渡后绍兴九年，由邑人出资，县丞汪仔与县尉周操重新兴建，“祭器各有其所，斋舍庖渦无不全善，大率规模形胜过旧远甚”①。淳安县学第一次增建于嘉定九年（1216），知县应与权因孔庙建制不依国家之常制，于是“增买近二家之地，夷城就平于以立门，悉遵式程”，“横广七十有五尺，视昔五增其四，设枓柢以止行者”②，学宫由此更为恢弘。第二次修葺于淳祐八年（1248），由县令虞胱主持，“揭鹤山文靖魏公所书古圣贤法语于讲肆之堂，以诏后学朔奠”，“节经费于斋户廊庑，葺残补陋，涂垩丹艤，揭御书大成之殿，建七十二哲之祠”③。第三次修葺于宝祐二年（1254），因淳祐十一年严州大水，冲毁县学，知县石孝闻主持、邑人士叶力裨助，修缮兴建，大成殿“撤腐易牢，四隅翼以游楹，面殿设朱绿槛，天井悉易凳”，“斋隶室两间，在东庑南之左，皆创也”，“垣墉旧圮成熟路，今厚筑而藩焉”④。至此，淳安县学（青溪县学）初具规模。",
+      "material_refs": [
+        "M81",
+        "M105",
+        "M91"
+      ],
+      "page": "258"
+    },
+    {
+      "id": "P56",
+      "type": "text",
+      "text": "元时，淳安县学经历了四次重大修葺。元朝修葺淳安县学始于大德九年（1305），由县尹李原主持修葺，“屋之坏者，选良材易之；瓦之毁者，陶新瓦益之”⑤。第二次修葺于至大元年（1308），因“士方奔走于文书征会之令，教亦几废”，县学“宫墙近市湫隘，且穿漏弗治”，由达鲁花赤爱祖丁主持，“不期月而殿堂斋宇焕然一新”⑥。第三次修葺于至正元年（1341），因大成殿至元丙子之乱后，六十年间虽有修葺，但最后“材植虫腐又不可支柱，凛然欹倾”，淳安知县杜明显等主持重建县学之大成殿，于至正二年（1342）建成⑦。元时地方最后一次修葺县学是在至正二十二年（1362），元朝虽未灭亡，但此时朱元璋已经在建德路建立政权，改建德府为严州府，淳安人民得以喘息，此时兴教化民再次提上日程。战火之后，“民居悉焦土，惟学宫岿然独存，而薪木墙屋，毁伤于寓人，又若荒祠庙之阒寂者”，知县胡惟贤、贰丞安辉、主簿王荣祖、典史方孟仁分头组织修葺，于是“弊者完、倾者安，颛蹶有严，烽烽有光，祭奠有礼，而生徒有归”①。而这期间，县尉郑千龄还于延祐六年（1319）在县学东院内增设了朱熹祠以供后学瞻仰②，可见元代理学对于淳安县学的影响。",
+      "material_refs": [
+        "M87",
+        "M93",
+        "M94"
+      ],
+      "page": "259"
+    },
+    {
+      "id": "P57",
+      "type": "text",
+      "text": "宋代州县学校由国家颁田供养学生，始于庆历时期，而淳安县学创设之时未有学田，直到绍兴十三年县令孔括始倡导置田，但是亩不满百。至大元年（1308），达鲁花赤爱祖丁营缮县学之余，募款增购至一百二十亩，“其汲汲焉以养士为意者，百六十七年间，才二人焉，亦罕矣”③。可见，在元末时期，淳安县学已经能够供养相当数量的士人在此学习。而根据至元丙子（1276）分水县学田供养士子的数量，二十五亩学田、六十亩偏池就可供养士人三十人在县学学习④来判断；一百二十亩学田能供养百人左右，这种规模与对教育的重视程度在古代地方县学来说，确实罕见。",
+      "material_refs": [
+        "M106"
+      ],
+      "page": "259"
+    },
+    {
+      "id": "P58",
+      "type": "title",
+      "text": "3. 遂安县学",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P59",
+      "type": "text",
+      "text": "遂安县学自北宋兴建之后几经占用兴废，至元朝时才稳定下来，后屡坏屡修，未曾停止办学。遂安县学始创于宋嘉祐时期，县令李廷芝在知州赵抃支持下废僧院建学，后于熙宁中还寺院于僧，县学被迫迁至长寿僧院西院，进士余九龄等忿而讼于监司。元丰三年（1080），在刘士彦通判睦州与遂安县令共同主持下，征廨舍建孔庙，绍兴三年（1133）因火灾迁至县西。而绍熙二年，孙应时任遂安县令时，县学已经停办多时，“曩者或坏屋为传舍，为库庾，为贾区”，学舍虽经前任县令修葺，但未及延请师长。于是，孙应时“乃择学长一人，受徒其中，未几，衿佩四来，弦诵蔼闻”，孙应时本人也在公事之余，“旬一再往，问难讲绎，益劝于学”，并于绍熙三年（1192）设濂溪周氏、河南程氏三先生之祠于讲堂东偏。⑤",
+      "material_refs": [
+        "M92"
+      ],
+      "page": "260"
+    },
+    {
+      "id": "P60",
+      "type": "text",
+      "text": "遂安县学建于城西民居之中，至元十三年宋元更迭之时，周围民居均毁于战火，而学宫独存。元一统后，遂安县学经蓝田书院山长王献可先祖于至元十九年（1282）、至元二十九年（1292）两次修葺增盖；其间，县令张裕也曾“修学公建宇”①。但时间一长，房屋又过于老旧，难以修复，濒临坍塌；于是在大德九年（1305）夏五月时，由主簿尹柔克主持，各乡富民出资将县学修复一新，历时三月完工，并“复识学租增益之额，锓诸梓以拟岁修之费”②，作为遂安县学的教育经费。遂安县元时最后一次修葺于至正七年（1347），由县尹林德润与怯来一同主持修葺完成③。",
+      "material_refs": [],
+      "page": "260"
+    },
+    {
+      "id": "P61",
+      "type": "title",
+      "text": "4. 桐庐县学",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P62",
+      "type": "text",
+      "text": "宋元时期，桐庐县县学历经三次重建，尤其元大德年间县学重建时以石为基础，“是学坚巩而宏丽，似足冠江南诸邑”④。宋时，桐庐县学建于县邑之西坞。至和中，县令侯权巘因县学所在地常患水灾，于是将县学“徙于戴家桥北”；嘉祐中，县令刘臣再次迁建县学，“建于东北之小山”⑤，县尉江贤建讲堂于先圣后殿，请倪天隐主之，“士风振发，多所造就”⑥，地方教育再次恢复。然而，好景不长，宣和时，县学因方腊之乱毁于战火，直至绍兴二十四年（1154），县令赵侃鼎才在原址上重建县学。",
+      "material_refs": [
+        "M107"
+      ],
+      "page": "261"
+    },
+    {
+      "id": "P63",
+      "type": "text",
+      "text": "元时，桐庐县学虽经宋代几次重建，“尔后补苴、完葺虽续续”，大德时“规模之隘陋如昨也”。于是在大德九年（1305），县令王士文在到任第三年，“乃捐己俸为倡，同寅允协”$^{⑦}$，在原址上增扩三尺，又以石为基础，这样即使遭遇水灾也不致坍塌，“以为数百年未有”$^{⑧}$。",
+      "material_refs": [],
+      "page": "261"
+    },
+    {
+      "id": "P64",
+      "type": "title",
+      "text": "5. 寿昌县学",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P65",
+      "type": "text",
+      "text": "寿昌县在严州六县中等次较低，宋朝之前也没有重视兴学，县学最早应建于徽宗崇宁元年（1102），“宋崇宁中诏州县建学，乃即县南宣圣庙为之”①。其目的也是顺应朝廷的诏令，“县亦置学，州、县皆置小学。推三舍法遍行天下。自县选考升诸州，为州学生。每三年贡入太学，为太学生，至则附上舍试，别立号”，“县得用地利所出及非系省钱”②。建炎二年（1128），县学移至白艾里③（至元时县治燬，附于学宫，由此可知新学宫在白艾里）。绍兴九年（1139），“县令王筠重葺；嘉定二年（1209），“知县巩峤置学田二百亩”④；至此寿昌县学的基础建设才较为完备。",
+      "material_refs": [],
+      "page": "261"
+    },
+    {
+      "id": "P66",
+      "type": "text",
+      "text": "宋元交替之时，寿昌县衙民居俱毁于战火，只有学宫仅存；究其原因一是宋时建设修葺县学具一定防火功能，另外就是元军与宋军交战时有意为之，其目的就是保存原有的士人社会基础。所以元政权在严州稳定后，“事定不遑他务，汲汲惟学校是崇，使斯文不至泯灭”，对县学进行了几次大规模修葺。至元甲申（1283），县令李炳，“首撤明伦堂而新之，以观示一邑”，县尉李思诚，建“两庑斋室，厨福悉具”，“又建大门，建翼教堂，像肖邑先贤以厉风化”。至元癸巳（1293），县令王瑀建大成殿，“视旧制加崇五尺，加广亦如之”。元贞丙申（1296），县令吴恕，“复新像十哲，绘七十二子，凡栏楯门牖之未完者，至是悉完”⑤，达鲁花赤八札、县簿元弼、学官邵尚翁、洪克复共同出资相助⑥。元时，理学传入寿昌也比较早，至元戊寅（1278），学者邵大椿就被县学延聘为教谕讲书，“元初士子溺于词章之习，自公倡明理学，以淑人心，学者始知趋向”⑦，可见此时程朱理学已成为寿昌当地的士人规范。",
+      "material_refs": [],
+      "page": "261"
+    },
+    {
+      "id": "P67",
+      "type": "title",
+      "text": "6. 分水县学",
+      "material_refs": [],
+      "page": ""
+    },
+    {
+      "id": "P68",
+      "type": "text",
+      "text": "分水县在严州六县当中等次最低，但宋元两朝依旧坚持兴教办学。分水县原有孔庙并无县学，也是在崇宁中，因奉诏州县建学，以庙为之，在县治之东。绍兴间，“知县李端民建门庑”，“县令章涓创讲堂”①。此时，县学学田仅二十五亩，县学东北偏池六十亩，“岁以莲芡易粒才数石，人日给二缶，养生徒不能十人”；至元丙子（1276），在前学官何鸣凤、何寿老努力经营之下，“在籍至三十人”②。",
+      "material_refs": [],
+      "page": "261"
+    },
+    {
+      "id": "P69",
+      "type": "text",
+      "text": "宋元兴替之后，至元戊子（1289）学官徐会龙一上任，就“掇己田三十亩隶之学籍”③，从经济上给予了分水县学能够继续办学的支持。新安学者唐元，泰定时曾于县学任教职，教育士人，“俱崇实抑浮，士风丕变”④。元至顺初期，县学殿庑塌圮，“县尹卫迪重修”。至正二年（1342），县尹林炳“复修大成殿、两庑、斋舍”⑤，历经元末战火，而学宫独存。",
+      "material_refs": [],
+      "page": "261"
+    },
+    {
+      "id": "P70",
+      "type": "text",
+      "text": "修葺县学，增加学田，延聘名师等举措，既为地方士人获得学习空间，同时也为地方百姓提供了接受教育提升阶层的机会；意味着宋元时期严州社会动荡已经结束，士人社会秩序被重新构建，其结果就是“遗氓远人，壮夫健卒，惊贺瞻敬，阐明伦堂，闻讲明白”。理学思想的教育与传播使百姓进一步了解了，儒家“为臣忠厚老实，为子当孝，为兄弟当爱，朋友当信”的行为准则。宋元以来数百年间，由上至下，由下制上的这些行为与努力，其结果催生了“士人城市”（literaticity）的社会结构：一方面，推动士人成为城市主体消费者：县学培养的士人阶层（如洪震老、夏溥等）通过科举进入官僚系统，其经济来源从依赖地租转变为依赖俸禄与书院讲学收入，形成韦伯所谓“以政治或文化服务换取报酬”的身份集团。另一方面，促使城市—乡村关系的重构：传统“农业城市”中，居民兼具农民身份（如地主和富裕农民进城）；而县学的普及使严州城市人口中非农业的士人比例显著上升，其法律身份仍属宗族，但社会功能已脱离乡村，成为城市行政与文化的支配阶层。第三，导致了宗社祠堂与学宫的合流：尽管韦伯认为东方城市缺乏西方“城市公社”的自主性，但严州的案例显示，学宫与士人集团实际上承担了部分“公社”功能——如淳安县学中的朱熹祠、乡贤祠，通过祭祀与讲学凝聚地方精英，形成一种“文化共同体”（culturalcorporation），以对抗官僚系统的绝对支配。",
+      "material_refs": [],
+      "page": "261"
+    },
+    {
+      "id": "P71",
+      "type": "text",
+      "text": "马克斯·韦伯的城市理论揭示，严州州县学的建设并非单纯的教育扩张，而是国家通过理性行政手段重塑城市职能与社会结构的制度化过程。这一过程表明，东方城市虽未能发展出西方“城市公社”的军事—政治自主性，但通过教育行政的理性化，仍可形成一种独特的“士人城市”类型——其社会凝聚并非源于市民武装，而是源于文化资本的制度化再生产（州县学、书院私学等）。严州的案例，恰为韦伯理论提供了一个超越“西方中心”的东方范式。",
+      "material_refs": [],
+      "page": "261"
+    }
+  ],
+  "front_matter": [],
+  "statistics": {
+    "total_A_nodes": 1,
+    "total_B_nodes": 17,
+    "total_C_nodes": 50,
+    "total_unique_M": 98,
+    "nodes_by_depth": {
+      "1": 1,
+      "2": 2,
+      "3": 4,
+      "4": 11
+    },
+    "source_count_by_A": {
+      "A1": 98
+    },
+    "source_count_by_B": {
+      "B1": 42,
+      "B1.1": 16,
+      "B1.1.1": 7,
+      "B1.1.2": 7,
+      "B1.2": 26,
+      "B1.2.1": 13,
+      "B1.2.2": 4,
+      "B1.2.3": 9,
+      "B2": 28,
+      "B2.1": 12,
+      "B2.2": 15,
+      "B2.2.1": 5,
+      "B2.2.2": 8,
+      "B2.2.3": 1,
+      "B2.2.4": 1,
+      "B2.2.5": 0,
+      "B2.2.6": 0
+    },
+    "C_nodes_without_sources": 18,
+    "claims_total": 18,
+    "M": {
+      "total": 98,
+      "used": 70,
+      "unused": [
+        "M100",
+        "M102",
+        "M34",
+        "M35",
+        "M36",
+        "M37",
+        "M38",
+        "M39",
+        "M40",
+        "M41",
+        "M42",
+        "M45",
+        "M46",
+        "M47",
+        "M48",
+        "M58",
+        "M59",
+        "M60",
+        "M61",
+        "M62",
+        "M63",
+        "M64",
+        "M65",
+        "M66",
+        "M96",
+        "M97",
+        "M98",
+        "M99"
+      ]
+    },
+    "claims_supported": 0,
+    "claims_unsupported": 0
+  },
+  "evidence_binding_audit": [
+    {
+      "paragraph": "P5",
+      "materials": [
+        "M5",
+        "M6"
+      ],
+      "owners": [
+        "C1.1.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P7",
+      "materials": [
+        "M7"
+      ],
+      "owners": [
+        "C1.1.1.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P8",
+      "materials": [
+        "M8"
+      ],
+      "owners": [
+        "C1.1.1.2"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P9",
+      "materials": [
+        "M9"
+      ],
+      "owners": [
+        "C1.1.1.3"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P10",
+      "materials": [
+        "M10"
+      ],
+      "owners": [
+        "C1.1.1.4"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P11",
+      "materials": [
+        "M11",
+        "M12",
+        "M13"
+      ],
+      "owners": [
+        "C1.1.1.5"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P13",
+      "materials": [
+        "M14",
+        "M15",
+        "M16",
+        "M17",
+        "M18"
+      ],
+      "owners": [
+        "C1.1.2.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P14",
+      "materials": [
+        "M19",
+        "M20"
+      ],
+      "owners": [
+        "C1.1.2.2"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P18",
+      "materials": [
+        "M21",
+        "M22",
+        "M23"
+      ],
+      "owners": [
+        "C1.2.1.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P19",
+      "materials": [
+        "M24",
+        "M25",
+        "M26",
+        "M27",
+        "M28",
+        "M29",
+        "M30",
+        "M31",
+        "M32",
+        "M33"
+      ],
+      "owners": [
+        "C1.2.1.2"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P21",
+      "materials": [
+        "M43"
+      ],
+      "owners": [
+        "C1.2.2.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P22",
+      "materials": [
+        "M44",
+        "M51"
+      ],
+      "owners": [
+        "C1.2.2.2"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P23",
+      "materials": [
+        "M49"
+      ],
+      "owners": [
+        "C1.2.2.3"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P27",
+      "materials": [
+        "M50"
+      ],
+      "owners": [
+        "C1.2.3.2"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P28",
+      "materials": [
+        "M52",
+        "M55"
+      ],
+      "owners": [
+        "C1.2.3.3"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P31",
+      "materials": [
+        "M56"
+      ],
+      "owners": [
+        "C1.2.3.5"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P34",
+      "materials": [
+        "M72b"
+      ],
+      "owners": [
+        "C1.2.3.7"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P35",
+      "materials": [
+        "M67",
+        "M68"
+      ],
+      "owners": [
+        "C1.2.3.8"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P37",
+      "materials": [
+        "M69"
+      ],
+      "owners": [
+        "C1.2.3.10"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P38",
+      "materials": [
+        "M70"
+      ],
+      "owners": [
+        "C1.2.3.11"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P41",
+      "materials": [
+        "M71"
+      ],
+      "owners": [
+        "C2.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P43",
+      "materials": [
+        "M76"
+      ],
+      "owners": [
+        "C2.1.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P45",
+      "materials": [
+        "M72a",
+        "M74",
+        "M75",
+        "M77",
+        "M78",
+        "M79",
+        "M82",
+        "M83",
+        "M84"
+      ],
+      "owners": [
+        "C2.1.3"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P46",
+      "materials": [
+        "M88",
+        "M89"
+      ],
+      "owners": [
+        "C2.1.4"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P51",
+      "materials": [
+        "M85"
+      ],
+      "owners": [
+        "C2.2.1.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P52",
+      "materials": [
+        "M103",
+        "M86a",
+        "M86b",
+        "M90"
+      ],
+      "owners": [
+        "C2.2.1.2"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P54",
+      "materials": [
+        "M80"
+      ],
+      "owners": [
+        "C2.2.2.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P55",
+      "materials": [
+        "M105",
+        "M81",
+        "M91"
+      ],
+      "owners": [
+        "C2.2.2.2"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P56",
+      "materials": [
+        "M87",
+        "M93",
+        "M94"
+      ],
+      "owners": [
+        "C2.2.2.3"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P57",
+      "materials": [
+        "M106"
+      ],
+      "owners": [
+        "C2.2.2.4"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P59",
+      "materials": [
+        "M92"
+      ],
+      "owners": [
+        "C2.2.3.1"
+      ],
+      "status": "direct"
+    },
+    {
+      "paragraph": "P62",
+      "materials": [
+        "M107"
+      ],
+      "owners": [
+        "C2.2.4.1"
+      ],
+      "status": "direct"
+    }
+  ]
+}
